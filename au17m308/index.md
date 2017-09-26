@@ -15,4 +15,5 @@
 
 ## Links
 
+[Syllabus](./syllabus.pdf)
 [Amazing linear algebra videos by 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
