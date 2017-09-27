@@ -58,4 +58,30 @@ Think of some examples here with class.
 there exist at least one solution. It is *inconsistent* if it is not
 consistent.
 
+### Special forms of linear systems
 
+**Definition:** Given an ordering of the variables, the *leading variable* of a
+linear equation is the first variable with a nonzero coefficient in that linear
+equation.
+
+**Definition:** A *square* linear system of equation is a linear system of
+equation with the same number of variables and equations.
+
+**Definition:** A square linear system of equation is *triangular* if the
+leading variable of the $i$th equation is $x_i$.
+
+**Examples:**
+
+Think of some examples here with class. Remember to solve them with back
+substitution.
+
+**Definition:**  A linear system is in *echelon form* if the leading variable
+are strictly increasing from top to bottom. Equations without variables are
+place at the bottom. In such a linear system, any variable that is not a
+leading variable is called a *free variable*.
+
+
+**Examples:**
+
+Think of some examples here with class. Be sure to explain why a free variable
+is called a free variable.
