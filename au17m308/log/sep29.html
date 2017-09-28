@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="https://kevinywlui.github.io/style.css" type="text/css" />
+</head>
+<body>
+<h1 id="september-29">September 29</h1>
+<h2 id="announcements">Announcements</h2>
+<ul>
+<li>Section 1.2 due Thursday</li>
+<li>Fill out office hours preference form</li>
+</ul>
+<h2 id="triangular-systems-round-2">Triangular Systems Round 2</h2>
+<p><strong>Definition:</strong> A square system is triangular if leading variable of the <span class="math inline"><em>i</em></span>th equation is the <span class="math inline"><em>i</em></span>th variable.</p>
+<h2 id="solutions-to-echolon-systems">Solutions to echolon systems</h2>
+<p>Recall that in a echelon system, if a variable is not a leading variable to any equation then it is called a free variable. Let's justify this with an example.</p>
+<p>Consider linear system given by</p>
+
+<p>Here <span class="math inline"><em>x</em><sub>1</sub>, <em>x</em><sub>2</sub>, <em>x</em><sub>4</sub></span> are leading variables and <span class="math inline"><em>x</em><sub>3</sub>, <em>x</em><sub>5</sub></span> are free variables. Notice that I can add set <span class="math inline"><em>x</em><sub>3</sub></span> and <span class="math inline"><em>x</em><sub>5</sub></span> to any number and they will be a unique solution. For example, <span class="math inline"><em>x</em><sub>3</sub> = 3</span> and <span class="math inline"><em>x</em><sub>5</sub> = 2</span>. This gives the triangular system</p>
+
+<p>which has a unique solution using back substitution. Let's solve this linear system in general. We can set <span class="math inline"><em>x</em><sub>3</sub> = <em>s</em><sub>1</sub></span> and <span class="math inline"><em>x</em><sub>5</sub> = <em>s</em><sub>2</sub></span>. Here <span class="math inline"><em>s</em><sub>1</sub>, <em>s</em><sub>2</sub></span> are parameters that determine our solution space.</p>
+
+<p>Work this out with class. Remark that the solution space is two dimensional.</p>
+<p>With this technique, all echelon systems can be solved with back substitution if we ignore the constant equations like <span class="math inline">0 = 0</span> or <span class="math inline">1 = 0</span>. We know how to handle the constant equations.</p>
+<h2 id="linear-systems-and-matrices">1.2 Linear Systems and Matrices</h2>
+<p>tldr: We can turn all linear systems into echelon systems without changing the solution space. We can organize the data of a linear system using matrices.</p>
+<h3 id="augmented-matrix">Augmented matrix</h3>
+<p>We can write a linear system as an augmented matrix. (give example in class).</p>
+<p><strong>Definitiion:</strong> The <em>leading term</em> of a row of a matrix is the leftmost nonzero term.</p>
+<p><strong>Definitiion:</strong> A matrix is in echelon form if * every leading term is in the column to the left of the leading term of the row below it * any zero rows are at the bottom</p>
+<h3 id="elementary-operations">Elementary operations</h3>
+<p>We can perform a series of <em>elementary operations</em> to turn a general linear system into a echelon system without changing the solution space.</p>
+<ul>
+<li>Interchange the position of two equations. Swapping rows. (give example in class)</li>
+<li>multiply an equation by a nonzero constant. Multiplying a row by nonzero constant. (give example in class)</li>
+<li>add a multiple of one equation to another. add a multiple of a row to another. (give example in class)</li>
+</ul>
+<p>The most important part about these operations is that they do not change the solution space. They do not change solution space. No changes to solution space. Solution space is the same. Same solution space.</p>
+<h3 id="gaussian-elimination">Gaussian elimination</h3>
+<p><strong>Definition:</strong> The <em>pivot positions</em> are positions that contain a leading term. The <em>pivot columns</em> are columns that contain a pivot position. A <em>pivot</em> is the value of a <em>pivot position</em>.</p>
+<p><strong>Algorithm:</strong> <em>Gaussian elimination</em> is performed as follows: * find the pivot position in the first row * use elementary row operators to eliminate all value under the pivot position * continue</p>
+<p>work out example in class</p>
+<h3 id="reduced-echelon-form">Reduced echelon form</h3>
+<p><strong>Definition:</strong> A matrix is in <em>reduced echelon form</em> if * it is in echelon form * all pivot positions contain a 1 * the only nonzero term in a pivot colum is in the pivot position</p>
+<p><strong>Algorithm:</strong> <em>Gauss-Jordan elimination</em> is performed as follows: * do Gaussian elimination * divide each row by the value of its pivot * eliminate all other values in pivot column.</p>
+<p>work out example in class.</p>
+<h3 id="homogenous-linear-systems">Homogenous linear systems</h3>
+<p>A linear system is homogenous if the numbers to the right of the equal sign are all zero. They always have the trivial solution</p>
+</body>
+</html>
