@@ -1,1 +1,2 @@
 find . -type f -name '*md' -execdir sh -c 'pandoc $0 -o ${0%.md}.html --css https://kevinywlui.github.io/style.css' {} \;
+find . -type f -path '*log*[0-9].md' -execdir sh -c 'pandoc $0 -o ${0%.md}.pdf' {} \;
