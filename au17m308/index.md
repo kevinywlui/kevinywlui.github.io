@@ -5,6 +5,7 @@
 * Final Exam: 12/14 / 2:30 - 4:20 / LOW 201
 
 # [Class Log](./log)
+# [Worksheets](./worksheets)
 
 ## Grading
 
