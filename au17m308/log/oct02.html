@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="https://kevinywlui.github.io/style.css" type="text/css" />
+</head>
+<body>
+<h1 id="october-2">October 2</h1>
+<h2 id="announcements">Announcements</h2>
+<ul>
+<li>Watch 2nd and 3rd 3blue1brown videos</li>
+<li>Section 1.1, 1.2 due this Thursday</li>
+<li>Worksheet 1 due Friday</li>
+<li>Section 2.1, 2.2 due next Thursday</li>
+<li>Office hours in Padelford C-8D
+<ul>
+<li>Wednesday 4:30 - 5:30</li>
+<li>Thursday 12:00 - 1:00</li>
+</ul></li>
+</ul>
+<h2 id="continue-from-last-class">Continue from last class</h2>
+<p>Justify the elementary row operations in class.</p>
+<h3 id="gaussian-elimination">Gaussian elimination</h3>
+<p><strong>Definition:</strong> The <em>pivot positions</em> are positions that contain a leading term. The <em>pivot columns</em> are columns that contain a pivot position. A <em>pivot</em> is the value of a <em>pivot position</em>.</p>
+<p><strong>Algorithm:</strong> <em>Gaussian elimination</em> is performed as follows: * find the pivot position in the first row * use elementary row operators to eliminate all value under the pivot position * continue</p>
+<p>work out example in class</p>
+<h3 id="reduced-echelon-form">Reduced echelon form</h3>
+<p><strong>Definition:</strong> A matrix is in <em>reduced echelon form</em> if * it is in echelon form * all pivot positions contain a 1 * the only nonzero term in a pivot colum is in the pivot position</p>
+<p><strong>Algorithm:</strong> <em>Gauss-Jordan elimination</em> is performed as follows: * do Gaussian elimination * divide each row by the value of its pivot * eliminate all other values in pivot column.</p>
+<p>work out example in class.</p>
+<h3 id="homogenous-linear-systems">Homogenous linear systems</h3>
+<p>A linear system is homogenous if the numbers to the right of the equal sign are all zero. They always have the trivial solution</p>
+<h2 id="vectors">2.1 Vectors</h2>
+<p>A vector is a list of number with addition and scalar multiplication defined. Given vectors <span class="math inline"><em>u</em> = (<em>u</em><sub>1</sub>, <em>u</em><sub>2</sub>, …, <em>u</em><sub><em>n</em></sub>)∈ℝ<sup><em>n</em></sup></span>, <span class="math inline"><em>v</em> = (<em>v</em><sub>1</sub>, <em>v</em><sub>2</sub>, …, <em>v</em><sub><em>n</em></sub>)∈ℝ<sup><em>n</em></sup></span> of equal dimension and a scalar <span class="math inline"><em>c</em> ∈ ℝ</span>, we define * addition: <span class="math inline"><em>u</em> + <em>v</em> = (<em>u</em><sub>1</sub> + <em>v</em><sub>1</sub>, <em>u</em><sub>2</sub> + <em>v</em><sub>2</sub>, …, <em>u</em><sub><em>n</em></sub> + <em>v</em><sub><em>n</em></sub>)</span>, * scalar multiplication: <span class="math inline"><em>c</em><em>u</em> = (<em>c</em><em>u</em><sub>1</sub>, <em>c</em><em>u</em><sub>2</sub>, …, <em>c</em><em>u</em><sub><em>n</em></sub>)</span>.</p>
+<p>go over the geometry in class. tail to tip, parallelogram</p>
+<p>Let <span class="math inline"><em>a</em>, <em>b</em></span> be scalars and <span class="math inline"><em>u</em>, <em>v</em>, <em>w</em> ∈ ℝ<sup><em>n</em></sup></span>. Then * <span class="math inline"><em>u</em> + <em>v</em> = <em>v</em> + <em>u</em></span>, * <span class="math inline"><em>a</em>(<em>u</em> + <em>v</em>)=<em>a</em><em>u</em> + <em>a</em><em>v</em></span>, * <span class="math inline">(<em>a</em> + <em>b</em>)<em>u</em> = <em>a</em><em>u</em> + <em>b</em><em>u</em></span>, * <span class="math inline">(<em>u</em> + <em>v</em>)+<em>w</em> = <em>u</em> + (<em>v</em> + <em>w</em>)</span>, * <span class="math inline"><em>a</em>(<em>b</em><em>u</em>)=(<em>a</em><em>b</em>)<em>u</em></span>, * <span class="math inline"><em>u</em> + ( − <em>u</em>)=0</span>, * <span class="math inline"><em>u</em> + 0 = 0 + <em>u</em> = <em>u</em></span>, * <span class="math inline">1<em>u</em> = <em>u</em></span>.</p>
+<p><strong>Definition:</strong> The If <span class="math inline"><em>u</em><sub>1</sub>, <em>u</em><sub>2</sub>, …, <em>u</em><sub><em>m</em></sub></span> are vectors and <span class="math inline"><em>c</em><sub>1</sub>, <em>c</em><sub>2</sub>, …, <em>c</em><sub><em>m</em></sub></span> are scalars, then <br /><span class="math display"><em>c</em><sub>1</sub><em>u</em><sub>1</sub> + <em>c</em><sub>2</sub><em>u</em><sub>2</sub> + … + <em>c</em><sub><em>m</em></sub><em>u</em><sub><em>m</em></sub></span><br /> is a <em>linear combination</em> of <span class="math inline"><em>u</em><sub>1</sub>, …, <em>u</em><sub><em>m</em></sub></span>. Note that the constants can be negative or zero.</p>
+<p>give examples in class.</p>
+</body>
+</html>
