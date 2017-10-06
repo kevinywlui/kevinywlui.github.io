@@ -2,6 +2,7 @@
 
 ## Announcements
 
+* Watch 3rd video
 * Section 2.1, 2.2 due next Thursday
 * Worksheet. 1 due today, fill out form
 * Worksheet 2 will be posted tonight
