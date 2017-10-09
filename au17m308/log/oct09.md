@@ -6,7 +6,9 @@
 * Section 2.3, 3.1 due next Thursday
 * Midterm next Wednesday in class
     * 1.1 - 3.1 (maybe 3.2)
+* Worksheet 1 solutions has been posted
 * Worksheet 2 has been posted, due this Friday
+* Wednesday office hours to be held in classroom?
 
 
 ## Homogenous Systems
