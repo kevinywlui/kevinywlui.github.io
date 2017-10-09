@@ -38,6 +38,7 @@ solution to the homogenous equations.
 Let $A=[a_i]$ and $b$ be a vector in $\mathbb{R}^n$. Then the following are
 equivalent (if one is true then they are all true, if one is false then they
 are all false).
+
 * The set $\{a_1,\ldots,a_m\}$ are linearly independent.
 * The vector equation $x_1a_1+x_2a_2+\ldots+x_ma_m=b$ has at most one solution.
 * The linear system $[a_1\;a_2\;\ldots\;a_m | b]$ has at most one solution.
@@ -73,10 +74,12 @@ to $b$.
 **Definition:** A function $T:\mathbb{R}^m \to \mathbb{R}^n$ is a linear
 transformation if for all vectors $u,v\in \mathbb{R}^m$ and all scalars $r$, we
 have
+
 * T(u+v) = T(u) + T(v)
 * T(ru) = rT(u).
 
 **Examples:**
+
 * What are some examples of functions that aren't linear transforms? quadratic,
   ax+b
 * Consider the function given by $T(x_1, x_2) = (3x_1-x_2, 2x_1+5x_2)$. What is
@@ -106,6 +109,7 @@ Is $(3,4)$ in the range of $A$?
 **Theorem:** Let $A=[a_1\; a_2\; \ldots\; a_m$ be a $n\times m$ matrix, and let
 $T:\mathbb{R}^m\to\mathbb{R}^n$ with $T(x) = Ax$ be a linear transformation.
 Then
+
 * A vector $w$ is in the range of $T$ if and only if $Ax=w$ is a consistent
   linear system.
 * The range of $T$ is the span of the columns (this is also called the column
