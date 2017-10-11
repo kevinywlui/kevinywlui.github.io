@@ -61,6 +61,17 @@ the matrix so that $T(x)=Ax$. Then
 In particular, the dimension of $A$ can sometimes implies that $T$ cannot be
 one-to-one and onto.
 
+**Theorem:**
+Let $S=\{a_1,\ldots,a_n\}$ with $a_i\in \mathbb{R}^n$, $A=[a_i]$, and
+$T(x)=Ax$. (So $A$ is square). Then the following are equivalent:
+
+* $S$ spans $\mathbb{R}^n$
+* $S$ is linearly independent
+* $Ax=b$ has a unique solution for all $b\in \mathbb{R}^n$
+* $T(xs)=b$ has a unique solution for all $b\in \mathbb{R}^n$
+* $T$ is onto
+* $T$ is one-to-one.
+
 ### Geometry of linear transformations from R^2 to R^2
 
 Lines go to lines (or points)! Why? $T((1-s)u+sv)=(1-s)T(u)+sT(v)$.
