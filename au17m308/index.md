@@ -17,5 +17,6 @@
 ## Links
 
 * [Syllabus](./syllabus.pdf)
+* [Exams](./exams)
 * [Amazing linear algebra videos by 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 * [CLUE](http://webster.uaa.washington.edu/asp/website/clue/home/)
