@@ -65,8 +65,8 @@ transform with $T(x)=Ax$. Then the following are equivalent
 * The set $S$ is linearly independent.
 * The linear equation $x_1v_1+\ldots+x_nv_n=0$ has only the trivial solution.
 * Every columns of $B$ has a pivot. (computationally useful)
-* For any $b\in \mathbb{R}^n$, the equation $x_1v_1+\ldots+x_nv_n=b$ has only
-  the trivial solution.
+* For any $b\in \mathbb{R}^n$, the equation $x_1v_1+\ldots+x_nv_n=b$ has a
+  unique solution.
 * The homogenous equation $Ax=0$ has only the trivial solution.
 * For any $b\in \mathbb{R}^n$, the equation $Ax=b$ has at most one solution.
 * For any $b\in \mathbb{R}^n$, $b$ can be expressed as a linear combination of
