@@ -2,6 +2,7 @@
 
 ## Midterm 1 Actual Exam
 [[questions](./midterm1.pdf)][[answers](./midterm1sol.pdf)]
+
 ## Midterm 1 Exam Archive
 
 Midterm 1               |                                                       |
