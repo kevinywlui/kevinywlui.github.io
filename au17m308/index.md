@@ -1,6 +1,6 @@
 # Math 308L - Kevin Lui (<klui@uw.edu>)
 
-![xkcd](https://imgs.xkcd.com/comics/matrix_transform.png)
+![](https://imgs.xkcd.com/comics/matrix_transform.png)
 
 * Lecture: MWF / 3:30 - 4:20 / LOW 201
 * Final Exam: 12/14 / 2:30 - 4:20 / LOW 201
