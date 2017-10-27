@@ -12,3 +12,5 @@
 * [October 16](./oct16.html) [[pdf](./oct16.pdf)]
 * [October 20](./oct20.html) [[pdf](./oct20.pdf)]
 * [October 23](./oct23.html) [[pdf](./oct23.pdf)]
+* [October 25](./oct25.html) [[pdf](./oct25.pdf)]
+* [October 27](./oct27.html) [[pdf](./oct27.pdf)]
