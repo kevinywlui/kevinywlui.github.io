@@ -9,7 +9,3 @@ all: $(PDFS) $(HTMLS)
 
 %.html: %.md
 	pandoc $< -o $@ --css http://kevinlui.org/style.css
-
-clean:
-	find . -type -f -name '*html' | xarg rm
-	find . -type -f -name '*pdf' | xarg rm

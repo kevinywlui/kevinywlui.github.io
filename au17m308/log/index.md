@@ -15,3 +15,11 @@
 * [October 25](./oct25.html) [[pdf](./oct25.pdf)]
 * [October 27](./oct27.html) [[pdf](./oct27.pdf)]
 * [October 30](./oct30.html) [[pdf](./oct30.pdf)]
+* [4.2-basis_and_dimension](./4.2-basis_and_dimension.html)
+  [[pdf](./4.2-basis_and_dimension.pdf)]
+* [4.3-row_and_column_spaces](./4.3-row_and_column_spaces.html)
+  [[pdf](./4.3-row_and_column_spaces.pdf)]
+* [4-review](./4-review.html)
+  [[pdf](./4-review.pdf)]
+* [5.1_5.2-determinants](./5.1_5.2-determinants.html)
+  [[pdf](./5.1_5.2-determinants.pdf)]
