@@ -16,8 +16,8 @@ Let $A$ and $B$ be invertible matrices and $C$ and $D$ be matrices. Then
 
 * $A^{-1}$ is also invertible.
 * $AB$ is invertible. The inverse is given by $(AB)^{-1}=B^{-1}A^{-1}$.
-* If $AC=AD$ then $C=D$
-* If $CA=DA$ then $C=D$
+* If $AC=AD$ then $C=D$.
+* If $CA=DA$ then $C=D$.
 
 **Theorem:**
 Let $A$ be a $n\times n$ matrix. Let $S$ be the columns of $A$. Let $T(x)=Ax$.
