@@ -11,7 +11,7 @@ all: $(PDFS) $(HTMLS) $(TEXPDFS)
 	pandoc $< -o $@
 
 %.pdf: %.tex
-	pdflatex $<
+	latexmk -pdf $<
 
 %.html: %.md
 	pandoc $< -o $@ --css http://kevinlui.org/style.css

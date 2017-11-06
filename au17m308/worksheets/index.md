@@ -12,4 +12,6 @@ version.
 * [Worksheet 4 - Due 10/27](./worksheet4.pdf)
     * [solutions](./worksheet4sol.pdf)
 * [Worksheet 5 - Due 11/3](./worksheet5.pdf)
-    * [solutions](./nicetry.notpostedyet)
+    * [solutions](./worksheet5sol.pdf)
+* [Worksheet 6 - Due 11/10](./worksheet6.pdf)
+    * [solutions](./worksheet6sol.pdf)
