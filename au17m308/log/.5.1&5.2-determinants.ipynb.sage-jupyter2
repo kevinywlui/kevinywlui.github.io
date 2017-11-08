@@ -1,4 +1,4 @@
-{"type":"settings","kernel":"sage-8.0","backend_state":"running","trust":false,"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.13"}},"kernel_usage":{"cpu":0,"memory":247648256},"kernel_state":"idle"}
+{"type":"settings","kernel":"sage-8.0","backend_state":"running","trust":false,"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.13"}},"kernel_usage":{"cpu":0,"memory":168767488},"kernel_state":"idle"}
 {"type":"cell","id":"a74775","pos":5,"input":"**Notation:** Often you denote the determinant of a matrix by replacing the square brackets by straight lines.","cell_type":"markdown"}
 {"type":"file","last_load":1510009185796}
 {"type":"cell","id":"e6d01c","pos":0,"input":"# 5.1/5.2 - Determinants","cell_type":"markdown"}
