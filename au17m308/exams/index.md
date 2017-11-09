@@ -19,6 +19,5 @@ Midterm 2               |                                                       
 ---                     |---                                                    |---
 Patrick Perkins, Spr17  |[midterm](./patrick_perkins_midterm2_spring_17.pdf)    |[key](./patrick_perkins_midterm2_key_spring_17.pdf)
 Vasu Tewari, Spr17      |[midterm](./vasu_tewari_midterm2_spring_17.pdf)        |[no key available](./thelinknameisnotalie)
-Ethan Devinatz, Spr16   |[midterm](./devinatz_spr16_midterm2.pdf)               |[key](./devinatz_spr16_midterm2sol.pdf)
 Josh Swanson, Spr15     |[midterm](./josh_swanson_midterm2_spring_15.pdf)       |[key](./josh_swanson_midterm2_key_spring_15.pdf)
 Kristin DeVleming, Win15|[midterm](./kristin_devleming_midterm2_winter_15.pdf)  |[key](./kristin_devleming_midterm2_key_winter_15.pdf)
