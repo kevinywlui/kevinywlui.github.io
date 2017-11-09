@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body onLoad="document.relay.submit()">
+<form method=post action="https://weblogin.washington.edu/" name=relay>
+<input type=hidden name=pubcookie_g_req value="b25lPXNpdGVzLm1hdGgud2FzaGluZ3Rvbi5lZHUmdHdvPS9fbTMwOC9FeGFtcy9NaWR0ZXJtXzEvJnRocmVlPTEmZm91cj1hNSZmaXZlPUdFVCZzaXg9c2l0ZXMubWF0aC53YXNoaW5ndG9uLmVkdSZzZXZlbj1MMzV0TXpBNEwwVjRZVzF6TDAxcFpIUmxjbTBnTVM5a1pYWnBibUYwZWw5emNISXhObDl0YVdSMFpYSnRNbk52YkM1d1pHWT0mZWlnaHQ9Jmhvc3RuYW1lPXd3dy5tYXRoLndhc2hpbmd0b24uZWR1Jm5pbmU9MSZmaWxlPSZyZWZlcmVyPWh0dHBzOi8vc2l0ZXMubWF0aC53YXNoaW5ndG9uLmVkdS9+bTMwOC9NaWR0ZXJtMi5waHAmc2Vzc19yZT0wJnByZV9zZXNzX3Rvaz0tOTU4ODM1NjIzJmZsYWc9MA==">
+<input type=hidden name=post_stuff value="">
+<input type=hidden name=relay_url value="https://sites.math.washington.edu/PubCookie.reply">
+<noscript>
+<p align=center>You do not have Javascript turned on,   please click the button to continue.
+<p align=center>
+<input type=submit name=go value=Continue>
+</noscript>
+</form>
+</html>
