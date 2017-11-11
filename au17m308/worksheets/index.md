@@ -15,3 +15,5 @@ version.
     * [solutions](./worksheet5sol.pdf)
 * [Worksheet 6 - Due 11/10](./worksheet6.pdf)
     * [solutions](./worksheet6sol.pdf)
+* [Worksheet 7 - Due 11/17](./worksheet7.pdf)
+    * [solutions](./worksheet7sol.pdf)
