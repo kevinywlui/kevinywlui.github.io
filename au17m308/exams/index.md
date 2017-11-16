@@ -1,7 +1,8 @@
 # Exams
 
-## Midterm 1 Actual Exam
+## Actual Exams
 [[questions](./midterm1.pdf)][[answers](./midterm1sol.pdf)]
+[[questions](./midterm2.pdf)][[answers](./midterm2sol.pdf)]
 
 ## Midterm 1 Exam Archive
 
