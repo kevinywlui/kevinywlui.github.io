@@ -15,8 +15,9 @@
 \newcommand{\col}{\mathrm{col}}
 \newcommand{\row}{\mathrm{row}}
 \newcommand{\nll}{\mathrm{null}}
+\newcommand{\range}{\mathrm{range}}
 
-% \printanswers
+\printanswers
 
 \pagestyle{headandfoot}
 \runningheadrule
@@ -180,7 +181,18 @@ Student ID Number: \hrulefill
             \[
                 x_1b_1+x_2b_2 = y.
             \]
-           This yields the linear systemg
+           This yields the much easier linear system
+            \[
+                \begin{bmatrix}[cc|c]
+                    1 & 1 & 1 \\
+                    -1 & 0 & -2 \\
+                    1 & 2 & 0
+                \end{bmatrix}
+            \]
+            which has solutions $x_1=2$ and $x_2=-1$. So altogether, we have
+            \[
+                (x_1,x_2,x_3)=(2,-1,0).
+            \]
         \end{solution}
         \vfill
         \vfill
@@ -215,7 +227,7 @@ Student ID Number: \hrulefill
         $\col(A)=\col(B)$ and $\nll(A)=\nll(B)$.
         \begin{solution}
             Pick your favorite natural number $n$. Let $A=I_n$ and $B=2\cdot
-            I_2$. Then $\col(A)=\col(B)=\mathbb{R}^n$ and
+            I_n$. Then $\col(A)=\col(B)=\mathbb{R}^n$ and
             $\nll(A)=\nll(B)=\{0\}$.
         \end{solution}
         \vfill
@@ -252,7 +264,19 @@ Student ID Number: \hrulefill
         orthogonal to $v$. (Hint: Recall that $(a_1,a_2,a_3)\cdot
         (b_1,b_2,b_3)=a_1b_1+a_2b_2+a_3b_3$.)
         \begin{solution}
-            A basis is $\{(1,1,-1),(1,0,1),(0,1,1)\}$.
+            There are two methods to find 2 vectors orthogonal to $v$.
+            \begin{itemize}
+                \item
+                    Eyeball it.
+                \item
+                    Find 2 particular solutions to $v\cdot
+                    (x,y,z)=x+y-z=0$.
+            \end{itemize}
+            We find that $(1,0,1)$ and $(0,1,1)$ are distinct vector orthogonal
+            to $v$. A basis for $\mathbb{R}^3$ is then given by
+            \[
+                \{v,(1,0,1),(0,1,1)\}.
+            \]
         \end{solution}
         \vfill
         \vfill
@@ -262,6 +286,8 @@ Student ID Number: \hrulefill
             \subpart
             Give a basis for $\nll(A)$.
             \begin{solution}
+                The null space of $A$ is the kernel of $T$. We see that this is
+                spanned by $\{(1,0,1),(0,1,1)\}$.
             \end{solution}
             \vfill
             \subpart
@@ -286,6 +312,29 @@ Student ID Number: \hrulefill
         \end{subparts}
         \part[4]
         What is $A$? You may express $A$ as a product of matrices and their inverses.
+        \begin{solution}
+            From past worksheets and lectures, we know that if
+            $\{u_1,\ldots,u_n\}$ is a basis for $\mathbb{R}^n$ and
+            $T:\mathbb{R}^n\to\mathbb{R}^n$ is defined so that $T(u_i)=v_i$ for
+            $i=1,\ldots,n$ then the corresponding matrix for $T$ is given by
+            $VU^{-1}$, where $V=[v_i]$ and $U=[u_i]$.
+
+            In this case, we have that $T(v)=v$ and $T(1,0,1)=(0,0,0)$ and
+            $T(0,1,1)=(0,0,0)$. The corresponding matrix is
+            \[
+                A=
+                \begin{bmatrix}
+                    1 & 0 & 0 \\
+                    1 & 0 & 0 \\
+                    -1 & 0 & 0
+                \end{bmatrix}
+                \begin{bmatrix}
+                    1 & 1 & 0 \\
+                    1 & 0 & 1 \\
+                    -1 & 1 & 1
+                \end{bmatrix}^{-1}.
+            \]
+        \end{solution}
         \vfill
         \vfill
         \vfill
@@ -331,8 +380,8 @@ Student ID Number: \hrulefill
         Write the columns of $A$ corresponding to free variables as a linear
         combination of pivot columns of $A$.
         \begin{solution}
-            Relations among the columans of $A$ are also relations among the
-            columns of $B$. This means
+            Relations among the columns of $A$ are exactly the relations among
+            the columns of $B$. This means
             \[
                 a_2 = 2 a_1 \quad \text{and} \quad a_4 = -2a_1 + a_3.
             \]
@@ -340,6 +389,11 @@ Student ID Number: \hrulefill
         \vfill
         \part[3]
         What is a basis for $\ker(T)$?
+        \begin{solution}
+            The general solution to $A$ is $x=s_1(-2,1,0,0)+s_2(2,0,-1,1)$.
+            This means that a basis for $\ker(T)$ is
+            $\{(-2,1,0,0),(2,0,-1,1)\}$.
+        \end{solution}
         \vfill
     \end{parts}
 
@@ -369,17 +423,55 @@ Student ID Number: \hrulefill
     \begin{parts}
         \part[2]
         What is $\dim(\spn(\{a_1,a_2,a_3,a_4\}))$?
+        \begin{solution}
+            This is asking for the rank of $A$ which is 3 because there are 3
+            nonzero rows of $B$.
+        \end{solution}
         \vfill
         \part[2]
         What is a basis for $\nll(A)$?
+        \begin{solution}
+            The general solution to $A$ is $x=s_1(-1/2,1/2,-1,1)$. This means
+            that a basis for $\nll(A)$ is $\{(-1/2,1/2,-1,1)\}$.
+        \end{solution}
         \vfill
         \part[2]
         Denote that intersection of $S$ and $T$ by $S\cap T$. This is the
         subspace of vectors that are in $\spn(\{a_1,a_2\})$ \textbf{and} in
         $\spn(\{a_3,a_4\})$. What is $\dim(S\cap T)$?
+        \begin{solution}
+            We can see that $S$ and $T$ are distinct 2-dimensional spaces in
+            $\col(A)$ which is a 3-dimensional space. This means that the
+            intersection is 1-dimensional. This is the more geometric idea. See
+            the next answer for the more algebraic one.
+        \end{solution}
         \vfill
         \part[6]
         (Hard.) What is a basis for $S\cap T$?
+        \begin{solution}
+            We will investigate what it means for a vector to be in $S\cap T$.
+            Suppose $v\in S\cap T$. This means that we can write $v$ as a
+            linear combination of $a_1,a_2$ and as a linear combination of
+            $a_3,a_4$. So there exists scalar $c_1,c_2,c_3,c_4$ such that
+            \[
+                v=c_1a_1+c_2a_2=c_3a_3+c_4a_4.
+            \]
+            The goal is to determine the constraints on $c_1,c_2,c_3,c_4$. By
+            rearranging, this means that
+            \[
+                c_1a_1+c_2a_2 - c_3a_3 - c_4a_4=0.
+            \]
+            This means that $(c_1,c_2,-c_3,-c_4)\in \nll(A)$. Then
+            $(c_1,c_2,-c_3,-c_4)=s_1(-1/2,1/2,-1,1)$ for some $s_1$. So
+            \begin{equation}
+                \label{a}
+                v=-1/2s_1a_1+1/2s_1a_2
+            \end{equation}
+            for some $s_1$. The equation \eqref{a} characterizes all $v\in S\cap
+            T$. We can see that it is a 1-dimensional space. A basis is
+            obtained by plugging in any nonzero $s_1$ into \eqref{a} so a basis
+            for $S\cap T$ is $\{a_1-a_2\}$.
+        \end{solution}
         \vfill
         \vfill
         \vfill
