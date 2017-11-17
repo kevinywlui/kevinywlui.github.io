@@ -23,3 +23,4 @@
   [[pdf](./4-review.pdf)]
 * [5.1_5.2-determinants](./5.1_5.2-determinants.html)
   [[pdf](./5.1_5.2-determinants.pdf)]
+* [6.1-eigenvalues_and_eigenvectors](./6.1-eigenvalues_and_eigenvectors.html)[[pdf](./6.1-eigenvalues_and_eigenvectors.pdf)]
