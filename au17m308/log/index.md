@@ -24,3 +24,4 @@
 * [5.1_5.2-determinants](./5.1_5.2-determinants.html)
   [[pdf](./5.1_5.2-determinants.pdf)]
 * [6.1-eigenvalues_and_eigenvectors](./6.1-eigenvalues_and_eigenvectors.html)[[pdf](./6.1-eigenvalues_and_eigenvectors.pdf)]
+* [8.1-dot_products_and_orthogonal_sets](./8.1-dot_products_and_orthogonal_sets.html)[[pdf](./8.1-dot_products_and_orthogonal_sets.pdf)]
