@@ -23,3 +23,14 @@ Patrick Perkins, Spr17  |[midterm](./patrick_perkins_midterm2_spring_17.pdf)    
 Vasu Tewari, Spr17      |[midterm](./vasu_tewari_midterm2_spring_17.pdf)        |[no key available](./thelinknameisnotalie)
 Josh Swanson, Spr15     |[midterm](./josh_swanson_midterm2_spring_15.pdf)       |[key](./josh_swanson_midterm2_key_spring_15.pdf)
 Kristin DeVleming, Win15|[midterm](./kristin_devleming_midterm2_winter_15.pdf)  |[key](./kristin_devleming_midterm2_key_winter_15.pdf)
+
+## Final Exam Archive
+
+Final                       |                                                       |
+---                         |---                                                    |---
+Sample Final                |[final](./sample_final.pdf)                            |[no key available](./thelinknameisnotalie)
+Kristin DeVleming, Win17    |[final](./kristin_devleming_final_winter_17.pdf)       |[key](./kristin_devleming_final_key_winter_17.pdf)
+Patrick Perkins, Win17      |[final](./patrick_perkins_final_winter_17.pdf)         |[no key available](./thelinknameisnotalie)
+Harishandra Ramadas, Win17  |[final](./harishandra_ramadas_final_winter_17.pdf)     |[key](./harishandra_ramadas_final_key_winter_17.pdf)
+Ethan Devinatz, Spr16       |[final](./devinatz_spr16_final.pdf)                    |[key](./devinatz_spr16_final_sol.pdf)
+Josh Swanson, Spr14         |[final](./josh_swanson_final_spring_14.pdf)            |[key](./josh_swanson_final_key_spring_14.pdf)
