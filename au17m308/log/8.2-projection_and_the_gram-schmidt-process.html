@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="http://kevinlui.org/style.css" type="text/css" />
+</head>
+<body>
+<h1 id="projection-and-the-gram-schmidt-process">Projection and the Gram-Schmidt Process</h1>
+<p>The goal this class is to find orthonormal basis for a subspace.</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>What is an orthonormal basis for the span of <span class="math inline">{(2, 0),(1, 1)}</span>?</li>
+<li>How would we do it with 3 vectors?</li>
+</ul>
+<p><strong>Definition:</strong> Let <span class="math inline"><em>u</em>, <em>v</em> ∈ ℝ<sup><em>n</em></sup></span> with <span class="math inline"><em>v</em></span> nonzero. Then the <em>projection of u onto v</em> is given by <span class="math inline">${\mathrm{proj}}_v u=\frac{u\cdot v}{\|v\|^2} v$</span>.</p>
+<p><strong>Theorem:</strong> Let <span class="math inline"><em>u</em>, <em>v</em> ∈ ℝ<sup><em>n</em></sup></span> and <span class="math inline"><em>c</em></span> be a nonzero scalar. Then</p>
+<ul>
+<li><span class="math inline"><em>p</em><em>r</em><em>o</em><em>j</em><sub><em>v</em></sub><em>u</em></span> is in <span class="math inline"><em>s</em><em>p</em><em>a</em><em>n</em><em>v</em></span>.</li>
+<li><span class="math inline"><em>u</em> − <em>p</em><em>r</em><em>o</em><em>j</em><sub><em>v</em></sub><em>u</em></span> is orthogonal to <span class="math inline"><em>v</em></span></li>
+<li>if <span class="math inline"><em>u</em></span> is in <span class="math inline"><em>s</em><em>p</em><em>a</em><em>n</em><em>v</em></span>, then <span class="math inline"><em>u</em> = <em>p</em><em>r</em><em>o</em><em>j</em><sub><em>v</em></sub><em>u</em></span>.</li>
+<li><span class="math inline"><em>p</em><em>r</em><em>o</em><em>j</em><sub><em>v</em></sub><em>u</em> = <em>p</em><em>r</em><em>o</em><em>j</em><sub><em>c</em></sub><em>v</em><em>u</em></span>.</li>
+</ul>
+<p>Let <span class="math inline"><em>S</em></span> be a nontrivial subspace with orthogonal basis <span class="math inline">{<em>v</em><sub>1</sub>, …, <em>v</em><sub><em>k</em></sub>}</span>. Then the projection of <span class="math inline"><em>u</em></span> onto <span class="math inline"><em>S</em></span> is given by <span class="math inline">${\mathrm{proj}}_S u=\sum\sb{i=1} ^k {\mathrm{proj}}\sb{v_i} u$</span>.</p>
+<p><strong>Theorem:</strong> Let <span class="math inline"><em>S</em></span> be a nonzero subspace of <span class="math inline">ℝ<sup><em>n</em></sup></span> with orthogonal basis <span class="math inline">{<em>v</em><sub>1</sub>, …, <em>v</em><sub><em>k</em></sub>}</span>, and let <span class="math inline"><em>u</em></span> be a vector in <span class="math inline">ℝ<sup><em>n</em></sup></span>. Then</p>
+<ul>
+<li><span class="math inline"><em>p</em><em>r</em><em>o</em><em>j</em><sub><em>S</em></sub><em>u</em></span> is in <span class="math inline"><em>S</em></span>.</li>
+<li><span class="math inline"><em>u</em> − <em>p</em><em>r</em><em>o</em><em>j</em><sub><em>S</em></sub><em>u</em></span> is orthogonal to <span class="math inline"><em>S</em></span>.</li>
+<li>if <span class="math inline"><em>u</em></span> is in <span class="math inline"><em>S</em></span>, then <span class="math inline"><em>u</em> = <em>p</em><em>r</em><em>o</em><em>j</em><sub><em>S</em></sub><em>u</em></span>.</li>
+<li><span class="math inline"><em>p</em><em>r</em><em>o</em><em>j</em><sub><em>S</em></sub><em>u</em></span> is independent of the choice of orthogonal basis for <span class="math inline"><em>S</em></span>.</li>
+</ul>
+<p><strong>Theorem:</strong> (The Gram-Schmidt Process) Let <span class="math inline"><em>S</em></span> be a subspace with basis <span class="math inline">{<em>s</em><sub>1</sub>, …, <em>s</em><sub><em>n</em></sub>}</span>. Define <span class="math inline"><em>v</em><sub>1</sub>, …, <em>v</em><sub><em>k</em></sub></span> by</p>
+<ul>
+<li><span class="math inline"><em>v</em><sub>1</sub> = <em>s</em><sub>1</sub></span>,</li>
+<li><span class="math inline">$v_2=s_2-{\mathrm{proj}}\sb{v_1}s_2$</span>,</li>
+<li><span class="math inline">$v_3=s_3-{\mathrm{proj}}\sb{v_1}s_3-{\mathrm{proj}}\sb{v_2}s_3$</span>,</li>
+<li>...</li>
+<li><span class="math inline">$v_k=s_k-{\mathrm{proj}}\sb{v_1}s_k-\ldots-{\mathrm{proj}}\sb{v\sb{k-1}}s_k$</span></li>
+</ul>
+<p>Then <span class="math inline">{<em>v</em><sub>1</sub>, …, <em>v</em><sub><em>k</em></sub>}</span> is an orthogonal basis. To make it orthonormal, just normalize each element.</p>
+<p><strong>Example:</strong> Find an orthonormal basis for the subspace <span class="math inline">(1, 0, 1, 1),(0, 2, 0, 3),(−3, −1, 1, 5)</span>.</p>
+</body>
+</html>
