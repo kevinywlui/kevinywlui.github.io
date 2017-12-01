@@ -26,3 +26,4 @@
 * [6.1-eigenvalues_and_eigenvectors](./6.1-eigenvalues_and_eigenvectors.html)[[pdf](./6.1-eigenvalues_and_eigenvectors.pdf)]
 * [8.1-dot_products_and_orthogonal_sets](./8.1-dot_products_and_orthogonal_sets.html)[[pdf](./8.1-dot_products_and_orthogonal_sets.pdf)]
 * [8.2-projection_and_the_gram-schmidt-process](./8.2-projection_and_the_gram-schmidt-process.html)[[pdf](./8.2-projection_and_the_gram-schmidt-process.pdf)]
+* [8.3-diagonalization_symmetric_matrices_and_qr_factorization](./8.3-diagonalization_symmetric_matrices_and_qr_factorization.html)[[pdf](./8.3-diagonalization_symmetric_matrices_and_qr_factorization.pdf)]
