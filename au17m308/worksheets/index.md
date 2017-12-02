@@ -17,3 +17,5 @@ version.
     * [solutions](./worksheet6sol.pdf)
 * [Worksheet 7 - Due 11/17](./worksheet7.pdf)
     * [solutions](./worksheet7sol.pdf)
+* [Worksheet 8 - Due never](./worksheet8.pdf)
+    * [solutions not posted yet](./worksheet8sol.pdf)
