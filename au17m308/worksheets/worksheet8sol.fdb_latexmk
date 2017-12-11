@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1512856322 "worksheet8sol.tex" "worksheet8sol.pdf" "worksheet8sol" 1512856322
+["pdflatex"] 1512964864 "worksheet8sol.tex" "worksheet8sol.pdf" "worksheet8sol" 1512964864
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1510784337 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1510784344 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1510784344 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -47,11 +47,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1510784374 32585 d82bbcf7626b7842c87671687479e852 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1512846486 2404736 6ca9e6023b4459829efec74926ef1c58 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1510821158 7736839 db2b5d8ab3b9f22f71579599d9f14958 ""
-  "worksheet8sol.aux" 1512856322 3538 4d036e700aea547aca668048d9bcfc29 ""
-  "worksheet8sol.out" 1512856322 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "worksheet8sol.tex" 1512856321 9091 845db7efd6878647f4b7a7570cbfcb30 ""
+  "worksheet8sol.aux" 1512964864 3538 600c3ceed148e7491f11fc04b3619caa ""
+  "worksheet8sol.out" 1512964864 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "worksheet8sol.tex" 1512964852 9019 6c219259fea7d07193017dbc42fb8fad ""
   (generated)
-  "worksheet8sol.log"
+  "worksheet8sol.aux"
   "worksheet8sol.pdf"
   "worksheet8sol.out"
-  "worksheet8sol.aux"
+  "worksheet8sol.log"
