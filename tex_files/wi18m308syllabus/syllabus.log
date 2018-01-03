@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.9.23)  2 JAN 2018 07:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  3 JAN 2018 19:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -41,7 +41,7 @@ Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -54,7 +54,7 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -128,20 +128,12 @@ LaTeX Info: Redefining \pageref on input line 6369.
 \c@Hfootnote=\count94
 )
 
-Package hyperref Message: Driver (default): hdvips.
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
-File: hdvips.def 2012/11/06 v6.83m Hyperref driver for dvips
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
-File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
-\pdf@docset=\toks15
-\pdf@box=\box26
-\pdf@toks=\toks16
-\pdf@defaulttoks=\toks17
-\HyField@AnnotCount=\count95
-\Fld@listcount=\count96
-\c@bookmark@seq@number=\count97
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count95
+\c@bookmark@seq@number=\count96
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -149,12 +141,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
-))
+)
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count98
-\Gm@cntv=\count99
-\c@Gm@tempcnt=\count100
+\Gm@cnth=\count97
+\Gm@cntv=\count98
+\c@Gm@tempcnt=\count99
 \Gm@bindingoffset=\dimen107
 \Gm@wd@mp=\dimen108
 \Gm@odd@mp=\dimen109
@@ -163,7 +155,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen112
 \Gm@layouthoffset=\dimen113
 \Gm@layoutvoffset=\dimen114
-\Gm@dimlist=\toks18
+\Gm@dimlist=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
@@ -184,7 +176,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
-\AtBeginShipoutBox=\box27
+\AtBeginShipoutBox=\box26
 Package hyperref Info: Link coloring OFF on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -193,7 +185,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count101
+\c@section@level=\count100
 )
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
@@ -205,9 +197,9 @@ LaTeX Info: Redefining \nameref on input line 5.
 
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -248,30 +240,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 14.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
+ [1
 
-Overfull \hbox (45.51337pt too wide) in paragraph at lines 25--30
-\OT1/cmr/m/n/10 re-ally de-tailed in-struc-tions on We-bAssign here: [][][][] 
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-[1
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
  (./syllabus.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
 Package rerunfilecheck Info: File `syllabus.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
  ) 
 Here is how much of TeX's memory you used:
- 4713 strings out of 493030
- 70746 string characters out of 6136260
- 160536 words of memory out of 5000000
- 8267 multiletter control sequences out of 15000+600000
+ 4671 strings out of 493029
+ 70181 string characters out of 6136234
+ 156507 words of memory out of 5000000
+ 8225 multiletter control sequences out of 15000+600000
  4769 words of font info for 18 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,6n,32p,194b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,32p,190b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on syllabus.pdf (1 page, 85074 bytes).
+PDF statistics:
+ 41 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on syllabus.dvi (1 page, 5944 bytes).
