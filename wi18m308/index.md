@@ -1,5 +1,10 @@
 # Math 308G/H - Kevin Lui (<klui@uw.edu>)
 
+## Office Hours in Padelford C8D
+
+* Tuesday 3:00 - 4:00
+* Wednesday 11:00 - 12:00
+
 ![](https://imgs.xkcd.com/comics/matrix_transform.png)
 
 # [Class Log](./log)

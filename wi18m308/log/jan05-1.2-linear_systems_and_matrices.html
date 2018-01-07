@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="http://kevinlui.org/style.css" type="text/css" />
+</head>
+<body>
+<h1 id="jan-05">Jan 05</h1>
+<h2 id="linear-systems-and-matrices">1.2 Linear Systems and Matrices</h2>
+<p>tldr: We can turn all linear systems into echelon systems without changing the solution space. We can organize the data of a linear system using matrices.</p>
+<h3 id="augmented-matrix">Augmented matrix</h3>
+<p>We can write a linear system as an augmented matrix. (give example in class).</p>
+<p><strong>Definitiion:</strong> The <em>leading term</em> of a row of a matrix is the leftmost nonzero term.</p>
+<p><strong>Definitiion:</strong> A matrix is in echelon form if</p>
+<ul>
+<li>every leading term is in the column to the left of the leading term of the row below it</li>
+<li>any zero rows are at the bottom</li>
+</ul>
+<h3 id="elementary-operations">Elementary operations</h3>
+<p>We can perform a series of <em>elementary operations</em> to turn a general linear system into a echelon system without changing the solution space.</p>
+<ul>
+<li>Interchange the position of two equations. Swapping rows. (give example in class)</li>
+<li>multiply an equation by a nonzero constant. Multiplying a row by nonzero constant. (give example in class)</li>
+<li>add a multiple of one equation to another. add a multiple of a row to another. (give example in class)</li>
+</ul>
+<p>The most important part about these operations is that they do not change the solution space. They do not change solution space. No changes to solution space. Solution space is the same. Same solution space.</p>
+<h3 id="gaussian-elimination">Gaussian elimination</h3>
+<p><strong>Definition:</strong> The <em>pivot positions</em> are positions that contain a leading term. The <em>pivot columns</em> are columns that contain a pivot position. A <em>pivot</em> is the value of a <em>pivot position</em>.</p>
+<p>The idea of Gaussian elimination:</p>
+<ul>
+<li>use row swaps move rows with lots of leading zeros to the bottom</li>
+<li>find the pivot position in the first row</li>
+<li>use elementary row operators to eliminate all value under the pivot position</li>
+<li>continue</li>
+</ul>
+<p>work out example in class</p>
+<h3 id="reduced-echelon-form">Reduced echelon form</h3>
+<p><strong>Definition:</strong> A matrix is in <em>reduced echelon form</em> if</p>
+<ul>
+<li>it is in echelon form</li>
+<li>all pivot positions contain a 1</li>
+<li>the only nonzero term in a pivot colum is in the pivot position</li>
+</ul>
+<p>The idea of <em>Gauss-Jordan elimination</em> is performed as follows:</p>
+<ul>
+<li>do Gaussian elimination</li>
+<li>divide each row by the value of its pivot</li>
+<li>eliminate all other values in pivot column.</li>
+</ul>
+<p>work out example in class.</p>
+<h3 id="homogenous-linear-systems">Homogenous linear systems</h3>
+<p>A linear system is homogenous if the numbers to the right of the equal sign are all zero. They always have the trivial solution</p>
+</body>
+</html>
