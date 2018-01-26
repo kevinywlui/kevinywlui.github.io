@@ -1,4 +1,4 @@
-# Class Log
+ Class Log
 
 * [Jan03 - Lines and Linear Equations](./jan03-1.1-lines_and_linear_equations.html) [[pdf]](./jan03-1.1-lines_and_linear_equations.pdf)
 * [Jan05 - Linear Systems and Matrices](./jan05-1.2-linear_systems_and_matrices.html) [[pdf]](./jan05-1.2-linear_systems_and_matrices.pdf)
@@ -9,3 +9,4 @@
 * [Jan 19 - Linear Transformations](./jan19-3.1-linear_transformation.html) [[pdf]](./jan19-3.1-linear_transformation.pdf)
 * [Jan 22 - Matrix Algebra](./jan22-3.2-matrix_algebra.html) [[pdf]](./jan22-3.2-matrix_algebra.pdf)
 * [Jan 24 - Inverses](./jan24-inverses.html) [[pdf]](./jan24-inverses.pdf)
+* [Jan 26 - Inverses](./jan26-inverses.html) [[pdf]](./jan26-inverses.pdf)
