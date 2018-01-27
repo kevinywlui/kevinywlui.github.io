@@ -1,0 +1,556 @@
+\documentclass[addpoints]{exam}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\newcommand{\range}{\mathrm{range}}
+\newcommand{\spn}{\mathrm{span}}
+\newcommand{\nll}{\mathrm{null}}
+\newcommand{\proj}{\mathrm{proj}}
+\newcommand{\rank}{\mathrm{rank}}
+\newcommand{\row}{\mathrm{row}}
+
+\printanswers
+
+\pagestyle{headandfoot}
+\runningheadrule
+\firstpageheader{}{}{}
+\runningheader{Math 308L Autumn 2017}
+{Final Exam, Page \thepage\ of \numpages}
+{December 14, 2017}
+\firstpagefooter{}{\thepage}{}
+\runningfooter{}{\thepage}{}
+
+\begin{document}
+
+\begin{center}
+Math 308L - Autumn 2017
+
+Final Exam
+
+December 14, 2017
+\end{center}
+
+\ifprintanswers
+\textbf{\huge KEY}
+\else
+Name: \hrulefill
+
+Student ID Number: \hrulefill
+\fi
+
+\vspace{0.3cm}
+
+\begin{center}
+    \gradetable[v][questions]
+\end{center}
+
+\vspace{0.3cm}
+
+\begin{itemize}
+    \item
+        There are 7 problems on this exam. Be sure you have all 7 problems on
+        your exam.
+    \item
+        The final answer must be left in exact form. Box your final answer.
+    \item
+        You are allowed the TI-30XIIS calculator. It is possible to complete
+        the exam without a calculator.
+    \item
+        You are allowed a single sheet of 2-sided self-written notes.
+    \item
+        You must show your work to receive full credit. A correct answer
+        with no supporting work will receive a zero.
+    \item
+        Use the backsides if you need extra space. Make a note of this if you
+        do.
+    \item
+        Do not cheat. This exam should represent your own work. If you are
+        caught cheating, I will report you to the Community Standards and
+        Student Conduct office.
+\end{itemize}
+
+\textbf{Conventions}:
+\begin{itemize}
+    \item
+        I will often denote the zero vector by $0$.
+    \item
+        When I define a variable, it is defined for that whole question. The $A$
+        defined in Question 2 is the same for each part.
+    \item
+        I often use $x$ to denote the vector $(x_1,x_2,\ldots,x_n)$. It should be clear from context.
+    \item
+        Sometimes I write vectors as a row and sometimes as a column. The
+        following are the same to me.
+        \[
+            (1,2,3) \quad
+            \begin{bmatrix}
+                1 \\
+                2 \\
+                3
+            \end{bmatrix}.
+        \]
+    \item
+        I write the evaluation of linear transformations in a few ways. The
+        following are the same to me.
+        \[
+            T(1,2,3) \quad T((1,2,3)) \quad T \left(
+            \begin{bmatrix}
+                1 \\ 2\\ 3
+            \end{bmatrix}
+            \right)
+        \]
+\end{itemize}
+
+
+\newpage
+
+\begin{questions}
+
+
+    \question
+    Give an example of each of the following. If it is not possible, write
+    ``NOT POSSIBLE''.
+    \begin{parts}
+        \part[2]
+        Give an example of a $2\times 3$ matrix $A$ and a vector $b\in
+        \mathbb{R}^2$ such that $Ax=b$ has no solutions but $Ax=0$ has
+        infinitely many solutions.
+        \begin{solution}
+            Let
+            \[
+                A =
+                \begin{bmatrix}
+                    1 & 1 & 1 \\
+                    0 & 0 & 0
+                \end{bmatrix}
+            \]
+            and $b=(0,1)$.
+        \end{solution}
+        \vfill
+        \part[2]
+        Give an example of a linear system in 3 variables whose solution space
+        is the intersection of the $x+y+z=0$ plane and the $xy$-plane.
+        \begin{solution}
+            The linear system given by
+            \[
+                \begin{aligned}
+                    x+y+z &= 0 \\
+                    z &= 0
+                \end{aligned}
+            \]
+        \end{solution}
+        \vfill
+        \part[2]
+        Give an example of a $2\times 2$ matrix $A$ such that $A^4 = I_2$ but
+        $A^2 \neq I_2$. If possible, give the matrix $A$ explicitly.
+        \begin{solution}
+            Let $A$ be the rotation by $\pi/2$ matrix. This is given by
+            \[
+                \begin{bmatrix}
+                    0 & -1 \\
+                    1 & 0
+                \end{bmatrix}.
+            \]
+        \end{solution}
+        \vfill
+        \part[2]
+        Give an example of 2 linear transformations $T:\mathbb{R}^2\to \mathbb{R}^2$
+        and $S:\mathbb{R}^2\to\mathbb{R}^2$ such that $\range(T)=\ker(S)$.
+        \begin{solution}
+            Let $T(x,y)=(x,y)$ and $S(x,y)=(0,0)$.
+        \end{solution}
+        \vfill
+        \part[2]
+        Give an example of an orthogonal matrix that is not invertible.
+        \begin{solution}
+            NOT POSSIBLE. The inverse of an orthogonal matrix is its transpose.
+        \end{solution}
+        \vfill
+        \part[2]
+        Give an example of an diagonalizable matrix that is not orthogonally
+        diagonalizable.
+        \begin{solution}
+            \[
+                \begin{bmatrix}
+                    1 & 0 \\
+                    1 & 0
+                \end{bmatrix}
+            \]
+        \end{solution}
+        \vfill
+    \end{parts}
+
+    \newpage
+
+    \question
+    Let $A$ be defined by
+    \[
+        A =
+        \begin{bmatrix}
+            1 & 2 & 1\\
+            2 & 4 & 2\\
+            0 & 0 & 1
+        \end{bmatrix}.
+    \]
+    \begin{parts}
+        \part[4]
+        Find a basis for the solution space $Ax=0$.
+        \begin{solution}
+            $\{(2,-1,0)\}$
+        \end{solution}
+        \vfill
+        \part[4]
+        What is the general solution to $Ax=
+        \begin{bmatrix}
+            3 \\ 6 \\ -3
+        \end{bmatrix}$?
+        \begin{solution}
+            $(6,0,-3)+s_1(2,-1,0)$.
+        \end{solution}
+        \vfill
+        \part[4]
+        Is there a vector $y\in \mathbb{R}^3$ such that $Ax=y$ has no
+        solutions? If so, give an example. If not, why not?
+        \begin{solution}
+            Yes. Many possibilities.
+        \end{solution}
+        \vfill
+    \end{parts}
+
+    \newpage
+
+    \question
+    Let $A$ and $B$ be equivalent matrices defined by
+    \[
+        A =
+        \begin{bmatrix}
+            -3 & 3 & -1 & -9 & 3\\
+            2 & -2 & 1 & 7  & -1\\
+            4 & -4 & 5 & 23 & 7
+        \end{bmatrix}
+        \sim
+        \begin{bmatrix}
+            1 & -1 & 0 & 2 & -2\\
+            0 & 0 & 1 & 3 & 3\\
+            0 & 0 & 0 & 0 & 0
+        \end{bmatrix}
+        = B.
+    \]
+    \begin{parts}
+        \part[4]
+        Find a basis for the solution space of $Ax=0$.
+        \begin{solution}
+            $\{(1,1,0,0,0),(-2,0,-3,1,0),(2,0,-3,0,1)\}$
+        \end{solution}
+        \vfill
+        \part[4]
+        Let $a_1,a_2,a_3,a_4,a_5$ be the columns of $A$. Define $C=[a_1 \;
+        a_2\; a_3 \; a_4]$. What is a particular solution to $Cx = a_5$?
+        \begin{solution}
+            $(-2, 0, 3, 0)$.
+        \end{solution}
+        \vfill
+        \part[4]
+        Using the same variables as (b), what is the general solution to
+        $Cx=3a_4-a_5$?
+        \begin{solution}
+            $(8,0,6,0)+s_1(1,1,0,0)+s_2(-2,0,-3,1)$.
+        \end{solution}
+        \vfill
+    \end{parts}
+
+    \newpage
+
+    \question
+    Let $S$ be a subspace of $\mathbb{R}^4$ defined by
+    \[
+        S=
+        \spn
+        \left\{
+            \begin{bmatrix}
+                1 \\ 1 \\ 1 \\ 1
+            \end{bmatrix}
+            ,
+            \begin{bmatrix}
+                1 \\ 1 \\ 0 \\ 0
+            \end{bmatrix}
+            ,
+            \begin{bmatrix}
+                0 \\ 0 \\ 1 \\ 1
+            \end{bmatrix}
+            \right\}.
+    \]
+    \begin{parts}
+        \part[3]
+        What is a basis for $(S^\perp)^\perp$?
+        \begin{solution}
+            $\{(1,1,0,0),(0,0,1,1)\}$.
+        \end{solution}
+        \vfill
+        \part[3]
+        What is a basis for $S^\perp$?
+        \begin{solution}
+            $\{(1,-1,0,0),(0,0,1,-1)\}$.
+        \end{solution}
+        \vfill
+        \part[3]
+        Does there exist a rank 2 matrix $A$ such that $\nll(A)=S$? If so, give
+        an example. If not, why not?
+        \begin{solution}
+            If $\nll(A)=S$ then $\row(A)=S^\perp$ so we can take
+            \[
+                \begin{bmatrix}
+                    1 & -1 & 0 & 0 \\
+                    0 & 0 & 1 & -1
+                \end{bmatrix}.
+            \]
+        \end{solution}
+        \vfill
+        \part[3]
+        Does there exist a rank 3 matrix $A$ such that $\nll(A)=S$? If so, give
+        an example. If not, why not?
+        \begin{solution}
+            No. By the rank-nullity theorem, $\rank(A)+\nll(A)=4$. Since $\dim
+            S=2$, the rank of $A$ must be 2.
+        \end{solution}
+        \vfill
+    \end{parts}
+
+    \newpage
+
+    \question
+    Let $T:\mathbb{R}^3\to\mathbb{R}^3$ be the linear transform defined by the
+    following properties:
+    \begin{itemize}
+        \item
+            $T(0,0,1)=(0,0,0)$,
+        \item
+            If $v$ is in the $xy$-plane, then $v$ is reflected across the
+            $x+y=0$ plane.
+    \end{itemize}
+    There is a matrix $A$ such that $T(x)=Ax$. The goal of this problem is to
+    understand $A$.
+    \begin{parts}
+        \part[3]
+            Find a basis $\{u,v,w\}$ where the action of $T$ is
+            well-understood. Give also $T(u), T(v)$, and $T(w)$.
+            \begin{solution}
+                \[
+                    u = (0,0,1), T(u)=(0,0,0)
+                \]
+                \[
+                    v = (1,1,0), T(v)=(-1,-1,0)
+                \]
+                \[
+                    w = (1,-1,0), T(w)=(1,-1,0)
+                \]
+            \end{solution}
+            \vfill
+        \part[3]
+            Find the eigenvalues of $A$ and a basis for each eigenspace of $A$.
+            (Think geometrically.)
+            \begin{solution}
+                Part (a) gives the answer.
+
+                $\lambda=0$ is an eigenvalue with eigenspace spanned by $u$.
+
+                $\lambda=-1$ is an eigenvalue with eigenspace spanned by $v$.
+
+                $\lambda=1$ is an eigenvalue with eigenspace spanned by $w$.
+            \end{solution}
+            \vfill
+        \part[3]
+            What is $A$? You may express it as product of matrices and their
+            inverses.
+            \begin{solution}
+                Using the theory of diagonalization,
+                \[
+                    A =
+                    \begin{bmatrix}
+                        0 & 1 & 1 \\
+                        0 & 1 & -1 \\
+                        1 & 0 & 0
+                    \end{bmatrix}
+                    \begin{bmatrix}
+                        0 & 0 & 0 \\
+                        0 & -1 & 0 \\
+                        0 & 0 & 1
+                    \end{bmatrix}
+                    \begin{bmatrix}
+                        0 & 1 & 1 \\
+                        0 & 1 & -1 \\
+                        1 & 0 & 0
+                    \end{bmatrix}^{-1}
+                \]
+            \end{solution}
+            \vfill
+        \part[3]
+            What is $A^2$? Give it explicitly as a single matrix. (Think
+            geometrically.)
+            \begin{solution}
+                We can see that $A^2$ is projecting onto the $xy$-plane. So
+                \[
+                    A^2 =
+                    \begin{bmatrix}
+                        1 & 0 & 0 \\
+                        0 & 1 & 0 \\
+                        0 & 0 & 0
+                    \end{bmatrix}.
+                \]
+            \end{solution}
+            \vfill
+    \end{parts}
+
+    \newpage
+
+    \question
+    Let $A$ be the symmetric matrix defined as
+    \[
+        A=
+        \begin{bmatrix}
+            1 & -1 & -1 \\
+            -1 & 1 & -1 \\
+            -1 & -1 & 1
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            1 & -1 & -2 \\
+            1 & 0 & 1 \\
+            1 & 1 & 1
+        \end{bmatrix}
+        \begin{bmatrix}
+            -1 & 0 & 0 \\
+            0 & 2 & 0 \\
+            0 & 0 & 2
+        \end{bmatrix}
+        \begin{bmatrix}
+            1 & -1 & -2 \\
+            1 & 0 & 1 \\
+            1 & 1 & 1
+        \end{bmatrix}^{-1}.
+    \]
+    \begin{parts}
+        \part[3]
+        Find the eigenvalues of $A$ and a basis for each eigenspace of $A$.
+        \begin{solution}
+            $\lambda = -1$ is an eigenvalue with $\{(1,1,1)\}$ as a basis for
+            its eigenspace.
+
+            $\lambda = 2$ is an eigenvalue with $\{(-1,0,1),(-2,1,1)\}$ as a
+            basis for its eigenspace.
+        \end{solution}
+        \vfill
+        \vfill
+        \vfill
+        \part[3]
+        Find a basis for each of the following subspaces.
+        \begin{itemize}
+            \item
+                $\nll(A)$
+                \vfill
+                \begin{solution}
+                    Since $0$ is not an eigenvalue, $\nll(A)=\{0\}$ with basis
+                    $\emptyset$.
+                \end{solution}
+            \item
+                $\nll(A-I)$
+                \begin{solution}
+                    Since $1$ is not an eigenvalue, $\nll(A)=\{0\}$ with basis
+                    $\emptyset$.
+                \end{solution}
+                \vfill
+            \item
+                $\nll(A-2I)$.
+                \begin{solution}
+                    We have that $\nll(A-2I)=E_2$ which has basis
+                    $\{(-1,0,1),(-2,1,1)\}$.
+                \end{solution}
+                \vfill
+        \end{itemize}
+        \vfill
+        \part[3]
+        Find an orthogonal matrix $Q$ and a diagonal matrix $D$ such that
+        $A=QDQ^{-1}$.
+        \begin{solution}
+            We use Gram-Schmidt to perform an orthogonal basis for each
+            eigenspace.
+
+            An orthonormal basis for the eigenspace corresponding to
+            $\lambda=-1$ is $\{(1/3,1/3,1/3)\}$.
+
+            An orthonormal basis for $\lambda=2$ is
+            $\{\frac{1}{\sqrt{2}}(-1,0,1),\sqrt{\frac{2}{3}}(-1/2,1,-1/2)\}$.
+        \end{solution}
+        \vfill
+        \vfill
+        \vfill
+        \part[3]
+        Find all $k\in \mathbb{R}$ such that $A-kI_3$ is not invertible.
+        \begin{solution}
+            $k=-1,2$.
+        \end{solution}
+        \vfill
+    \end{parts}
+
+
+    \newpage
+
+    \question
+    Let $v=(2,2,1)$ and $T:\mathbb{R}^3\to\mathbb{R}^3$ be defined by
+    $T(x)=\proj_v x$.
+    \begin{parts}
+        \part[4]
+        Find an orthogonal basis for $\mathbb{R}^3$ that contains $v$. (Hint:
+        first find a basis for $\mathbb{R}^3$ that contains $v$.)
+        \begin{solution}
+            $\{(2,2,1),(1,0,-2),(0,1,-2)\}$.
+        \end{solution}
+        \vfill
+        \vfill
+        \vfill
+        \vfill
+        \vfill
+        \vfill
+        \vfill
+        \part[4]
+        There exists a matrix $A$ such that $T(x)=Ax$. Find the eigenvalues of
+        $A$ and a basis for each eigenspace of $A$. (Hint: see part (a).)
+        \begin{solution}
+            The eigenspace corresponding to $1$ is spanned by $(2,2,1)$.
+
+            The eigenspace corresponding to $0$ is spanned by
+            $(1,0,-2),(0,1,-2)$.
+        \end{solution}
+        \vfill
+        \vfill
+        \vfill
+        \vfill
+        \part[4]
+        Let $e_1=(1,0,0)$. Evaluate the following:
+        \begin{itemize}
+            \item
+                $Ae_1$
+                \begin{solution}
+                    This is $T(e_1)=\proj_{v} e_1 = (4/9,4/9,2/9)$.
+                \end{solution}
+                \vfill
+            \item
+                $A^2e_1$
+                \begin{solution}
+                   Doing two projections is the same as one.
+                \end{solution}
+                \vfill
+            \item
+                $A^{100}e_1$
+                \begin{solution}
+                    Doing one hundred projections is the same as one.
+                \end{solution}
+                \vfill
+        \end{itemize}
+        \vfill
+    \end{parts}
+
+
+\end{questions}
+
+\end{document}

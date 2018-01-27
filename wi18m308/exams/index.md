@@ -4,6 +4,7 @@
 
 * Midterm 1 [[questions](./midterm1.pdf)][[answers](./midterm1sol.pdf)] - 82% median 
 * Midterm 2 [[questions](./midterm2.pdf)][[answers](./midterm2sol.pdf)] - 60% median
+* Final     [[questions](./final.pdf)][[answers](./finalsol.pdf)] - 70% median
 
 ## Midterm 1 Exam Archive
 
