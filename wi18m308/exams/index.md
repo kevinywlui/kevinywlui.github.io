@@ -1,10 +1,15 @@
 # Exams
 
+## Wi '18 Exams
+
+* Midterm 1 [[questions](./wi18_midterm1.pdf)][[answers](./wi18_midterm1sol.pdf)] 
+
+
 ## Fall '17 Exams
 
-* Midterm 1 [[questions](./midterm1.pdf)][[answers](./midterm1sol.pdf)] - 82% median 
-* Midterm 2 [[questions](./midterm2.pdf)][[answers](./midterm2sol.pdf)] - 60% median
-* Final     [[questions](./final.pdf)][[answers](./finalsol.pdf)] - 70% median
+* Midterm 1 [[questions](./au17_midterm1.pdf)][[answers](./au17_midterm1sol.pdf)] - 82% median 
+* Midterm 2 [[questions](./au17_midterm2.pdf)][[answers](./au17_midterm2sol.pdf)] - 60% median
+* Final     [[questions](./au17_final.pdf)][[answers](./au17_finalsol.pdf)] - 70% median
 
 ## Midterm 1 Exam Archive
 
