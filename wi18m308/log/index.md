@@ -10,3 +10,4 @@
 * [Jan 22 - Matrix Algebra](./jan22-3.2-matrix_algebra.html) [[pdf]](./jan22-3.2-matrix_algebra.pdf)
 * [Jan 24 - Inverses](./jan24-inverses.html) [[pdf]](./jan24-inverses.pdf)
 * [Jan 26 - Inverses](./jan26-inverses.html) [[pdf]](./jan26-inverses.pdf)
+* [Using old logs](kevinlui.org/au17/log)
