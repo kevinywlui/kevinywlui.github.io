@@ -3,6 +3,7 @@
 ## Wi '18 Exams
 
 * Midterm 1 [[questions](./wi18_midterm1.pdf)][[answers](./wi18_midterm1sol.pdf)] 
+* Midterm 2 [[questions](./wi18_midterm2.pdf)][[answers](./wi18_midterm2sol.pdf)] 
 
 
 ## Fall '17 Exams
