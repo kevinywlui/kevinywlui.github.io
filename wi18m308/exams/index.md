@@ -4,7 +4,7 @@
 
 * Midterm 1 [[questions](./wi18_midterm1.pdf)][[answers](./wi18_midterm1sol.pdf)] 
 * Midterm 2 [[questions](./wi18_midterm2.pdf)][[answers](./wi18_midterm2sol.pdf)] 
-* Final G [[questions](./wi18g_final.pdf)][[answers](./wi18g_final.pdf)] 
+* Final G [[questions](./wi18g_final.pdf)][[answers](./wi18g_finalsol.pdf)] 
 
 
 ## Fall '17 Exams
