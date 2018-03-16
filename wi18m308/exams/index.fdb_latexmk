@@ -1,0 +1,11 @@
+# Fdb version 3
+["pdflatex"] 1521160974 "index.md" "index.pdf" "index" 1521160974
+  "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1506161382 3853855 dd36e9f5f71c93ae6ae957293c5815c4 ""
+  "index.aux" 1521160974 8 a94a2480d3289e625eea47cd1b285758 ""
+  "index.md" 1521160972 3185 87ae524a8b1b864873b03664547a6144 ""
+  (generated)
+  "index.pdf"
+  "index.log"
