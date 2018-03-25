@@ -1,0 +1,540 @@
+\documentclass[addpoints]{exam}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{multicol}
+\newcommand{\col}{\mathrm{col}}
+\newcommand{\nll}{\mathrm{null}}
+\newcommand{\row}{\mathrm{row}}
+\newcommand{\spn}{\mathrm{span}}
+\newcommand{\rank}{\mathrm{rank}}
+\newcommand{\nullity}{\mathrm{nullity}}
+\newcommand{\range}{\mathrm{range}}
+
+\printanswers
+
+\pagestyle{headandfoot}
+\runningheadrule
+\firstpageheader{}{}{}
+\runningheader{Math 308H Winter 2018}
+{Final, Page \thepage\ of \numpages}
+{2018-03-15}
+\firstpagefooter{}{\thepage}{}
+\runningfooter{}{\thepage}{}
+
+\begin{document}
+
+\begin{center}
+    Math 308H - Winter 2018
+
+    Final
+
+    2018-03-15
+\end{center}
+
+\ifprintanswers
+\textbf{\huge KEY}
+\else
+Name: \hrulefill
+
+Student ID Number: \hrulefill
+\fi
+
+\vspace{0.3cm}
+
+\begin{center}
+    \gradetable[v][questions]
+\end{center}
+
+\vspace{0.3cm}
+
+\begin{itemize}
+    \item
+        There are 6 problems on this exam. Be sure you have all 6 problems on
+        your exam.
+    \item
+        The final answer must be left in exact form. Box your final answer.
+    \item
+        You are allowed the TI-30XIIS calculator. It is possible to complete
+        the exam without a calculator.
+    \item
+        You are allowed a single sheet of 2-sided handwritten self-written notes.
+    \item
+        You must show your work to receive full credit. A correct answer
+        with no supporting work will receive a zero.
+    \item
+        Use the backsides if you need extra space. Make a note of this if you
+        do.
+    \item
+        Do not cheat. This exam should represent your own work. If you are
+        caught cheating, I will report you to the Community Standards and
+        Student Conduct office.
+\end{itemize}
+
+\textbf{Conventions}:
+\begin{itemize}
+    \item
+        I will often denote the zero vector by $0$.
+    \item
+        When I define a variable, it is defined for that whole question. The $A$
+        defined in Question 2 is the same for each part.
+    \item
+        I treat row and column vectors as the same.
+    \item
+        For any linear transformation $T$, there exists a matrix $A$ such that
+        $T(x)=Ax$. I defined the determinant, rank, and nullity of $T$ using
+        $A$. This means,
+        \[
+            \det(T)=\det(A), \quad \rank(T)=\rank(A), \quad \nullity(T)=\nullity(A).
+        \]
+\end{itemize}
+
+
+\newpage
+
+\begin{questions}
+
+    % Question 1
+    \question
+    Give an example of each of the following. If it is not possible, write ``NOT
+    POSSIBLE''. You do not need to justify your answers.
+    \begin{parts}
+        \part[2]
+        If possible, give an example of a linear system of equations whose
+        solution space is the $(1,2,3)+s_1(1,0,0)$ line.
+        \begin{solution}
+            \[
+                y=2,\; z=3
+            \]
+        \end{solution}
+        \vfill
+        \part[2]
+        If possible, give an example of a $2\times 2$ matrix $A$ such that
+        $A\neq 0,I$ and $A(A-I)=0$.
+        \begin{solution}
+            This means that $A^2=A$ so any projection matrix would work. For
+            example,
+            \[
+                A =
+                \begin{bmatrix}
+                    1 & 0 \\
+                    0 & 0
+                \end{bmatrix}.
+            \]
+        \end{solution}
+        \vfill
+        \part[2]
+        If possible, give an example of a $2\times 2$ invertible matrix, $A$,
+        such that $e_1-e_2\notin \col(A)$.
+        \begin{solution}
+            NOT POSSIBLE. An invertible matrix must have spanning columns.
+        \end{solution}
+        \vfill
+        \part[2]
+        If possible, give an example of two invertible $2\times 2$ matrices $A$
+        and $B$ such that $A+B$ is not invertible.
+        \begin{solution}
+            Let $A=-B=I$.
+        \end{solution}
+        \vfill
+        \part[2]
+        If possible, give an example of two $2\times 2$ matrices $A$ and $B$
+        that are neither zero nor the identity matrix such that $AB=BA$.
+        \vfill
+        \begin{solution}
+            Take any two diagonal matrices that are not zero or the identity.
+        \end{solution}
+        \part[2]
+        If possible, give an example of two linear transformation
+        $T:\mathbb{R}^2\to\mathbb{R}^2$ and $S:\mathbb{R}^2\to\mathbb{R}^2$
+        such that $2$ is an eigenvalue of $T$ and $3$ is an eigenvalue of $S$
+        but $6$ is not an eigenvalue of $T\circ S$.
+        \begin{solution}
+            $T(x,y)=(2x,0)$, $S(x,y)=(0,3y)$.
+        \end{solution}
+        \vfill
+    \end{parts}
+
+    \newpage
+    % Question 2
+    \question
+    \begin{parts}
+        \part[6]
+        Let
+        \[
+            A = 
+            \begin{bmatrix}
+                1 & -3 \\
+                0 & 2
+            \end{bmatrix}.
+        \]
+        \begin{enumerate}
+            \item
+                What is the characteristic polynomial of $A^{-1}$? 
+                \begin{solution}
+                    $(1-\lambda)(1/2-\lambda)$.
+                \end{solution}
+                \vfill
+            \item
+                The matrix $A$ is diagonalizable so it can be written as
+                $A=UDU^{-1}$. What is $U$ and $D$?
+                \begin{solution}
+                    \[
+                        U =
+                        \begin{bmatrix}
+                            1 & 3 \\
+                            0 & -1
+                        \end{bmatrix}
+                        \quad
+                        D = 
+                        \begin{bmatrix}
+                            1 & 0 \\
+                            0 & 2
+                        \end{bmatrix}
+                    \]
+                \end{solution}
+                \vfill
+                \vfill
+                \vfill
+        \end{enumerate}
+        \part[6]
+        Let
+        \[
+            B =
+            \begin{bmatrix}
+                4 & 0 & 2 \\
+                0 & 1 & 2 \\
+                0 & 2 & 4
+            \end{bmatrix}.
+        \]
+        \begin{enumerate}
+            \item 
+                What is the reduced echelon form of $B$?
+                \begin{solution}
+                    \[
+                        \begin{bmatrix}
+                            1 & 0 & 1/2 \\
+                            0 & 1 & 2 \\
+                            0 & 0 & 0
+                        \end{bmatrix}
+                    \]
+                \end{solution}
+                \vfill
+                \vfill
+            \item
+                What is the general solution to $Bx=(6,3,6)$?
+                \begin{solution}
+                    \[
+                        (1,1,1)+s_1(-1/2,-2,1).
+                    \]
+                \end{solution}
+                \vfill
+                \vfill
+        \end{enumerate}
+    \end{parts}
+
+    \newpage
+    % Question 3
+    \question
+    
+    Let $A$ and $B$ be equivalent matrices defined by
+    \[
+        A = 
+        \begin{bmatrix}
+            1 & 2 & 0 & -1 \\
+            0 & 1 & 0 & 3 \\
+            0 & 1 & 1 & 0 \\
+            2 & 5 & 0 & 1
+        \end{bmatrix}
+        \sim
+        \begin{bmatrix}
+            1 & 0 & 0 & -7 \\
+            0 & 1 & 0 & 3 \\
+            0 & 0 & 1 & -3 \\
+            0 & 0 & 0 & 0
+        \end{bmatrix}
+        =B 
+    \]
+    Let $a_1,a_2,a_3,a_4$ denote the columns of $A$.
+    \begin{parts}
+        \part[3]
+        Do not write express a basis as a matrix.
+        \begin{enumerate}
+            \item 
+                Give a basis for $\col(2A^t)$.
+                \begin{solution}
+                    The first thing to note that is $\col(2A^t)=\row(A)$. A
+                    basis is then
+                    \[
+                        \{(1,0,0,-7),(0,1,0,3),(0,0,1,-3)\}
+                    \]
+                \end{solution}
+                \vfill
+            \item 
+                Give a basis for $\nll(A)$.
+                \begin{solution}
+                    \[
+                        \{(7,-3,3,1)\}
+                    \]
+                \end{solution}
+                \vfill
+            \item
+                Give a basis for $\row(A)$.
+                \begin{solution}
+                    \[
+                        \{(1,0,0,-7),(0,1,0,3),(0,0,1,-3)\}
+                    \]
+                \end{solution}
+                \vfill
+        \end{enumerate}
+        \part[3]
+        These should be quick questions.
+        \begin{enumerate}
+            \item
+                What is $\rank(A)$?
+                \begin{solution}
+                    3
+                \end{solution}
+                \vfill
+            \item
+                What is $\nullity(A^{t} D^{-1})$, where $D$ is the $4\times 4$ diagonal
+                matrix consisting of $1,2,3,4$ along the diagonal.
+                \begin{solution}
+                    1
+                \end{solution}
+                \vfill
+            \item
+                What is $\det(2A)$?
+                \begin{solution}
+                    0
+                \end{solution}
+                \vfill
+        \end{enumerate}
+        \part[3]
+        Give a nontrivial linear combination of the columns of $A$ that sum to
+        zero. You may use $a_1,a_2,a_3,a_4$ to denote the columns of $A$.
+        \begin{solution}
+            $7a_1-3a_2+3a_3+a_4=0$.
+        \end{solution}
+        \vfill
+        \vfill
+        \part[3]
+        Let $C$ be the $4\times 3$ matrix given by $C = [a_1 \; a_2 \; a_3]$.
+        So $C$ is the submatrix of $A$ consisting of the first 3 columns. Give
+        the general solution for $Cx=a_1+a_4$.
+        \begin{solution}
+            From the previous part, we know that $a_4=-7a_1+3a_2-3a_3$. This
+            means that $a_1+a_4=-6a_1+3a_2-3a_3$. The general solution is then
+            \[
+                x=(-6,3,-3).
+            \]
+            There is no homogenous part because the columns of $C$ are linearly
+            independent.
+        \end{solution}
+        \vfill
+        \vfill
+    \end{parts}
+
+    \newpage
+    % Question 4
+    \question
+    Let $T:\mathbb{R}^4\to\mathbb{R}^3$ be the linear transformation defined by
+    \[
+        T(w,x,y,z)=(w+y+z,x+y+z,x+y+z).
+    \]
+    \begin{parts}
+        \part[3]
+        There is a matrix $A$ such that $T(x)=Ax$. What is $A$?
+        \begin{solution}
+            \[
+                A =
+                \begin{bmatrix}
+                    1 & 0 & 1 & 1\\
+                    0 & 1 & 1 & 1\\
+                    0 & 1 & 1 & 1
+                \end{bmatrix}
+            \]
+        \end{solution}
+        \vfill
+        \part[3]
+        Let $v=(0,3,0,8)$. Give the general solution to $Ax=2Av+(2,1,1)$.
+        \begin{solution}
+            A particular solution to $Ax=2Av$ is $x=2v$. A particular solution
+            to $Ax=(2,1,1)$ is $(2,1,0)$. The general solution to the
+            homogenous system $Ax=0$ is $s_1(-1,-1,1,0)+s_2(-1,-1,0,1)$. The
+            general solutin to $Ax=2Av=(2,1,1)$ is then
+            \[
+                2v+(2,1,0)+s_1(-1,-1,1,0)+s_2(-1,-1,0,1).
+            \]
+        \end{solution}
+        \vfill
+        \vfill
+        \part[3] 
+        Does there exists a rank 2 linear transformation $S$ such that $T\circ
+        S$ is the zero transformation? If so, give an example. If not, why not?
+        \begin{solution}
+            Yes. If $T\circ S=0$ then $\range(S)\subseteq \ker(T)$. We know a
+            basis for $\ker(T)$ so define
+            \[
+                S(x) =
+                \begin{bmatrix}
+                    -1 & -1 \\
+                    -1 & -1 \\
+                    1 & 0 \\
+                    0 & 1
+                \end{bmatrix}x.
+            \]
+        \end{solution}
+        \vfill
+        \part[3] 
+        Does there exists a rank 3 linear transformation $S$ such that $T\circ
+        S$ is the zero transformation? If so, give an example. If not, why not?
+        \begin{solution}
+            No. If $\range(S)\subseteq \ker(T)$, then $\rank(S)\leq
+            \nullity(T)$.
+        \end{solution}
+        \vfill
+    \end{parts}
+
+    \newpage
+    % Question 5
+    \question
+    Let
+    \[
+        A =
+        \begin{bmatrix}
+            0 & -1 & \frac{37}{3} & -\frac{253}{15} \\
+            0 & 2 & 0 & -\frac{1}{5} \\
+            0 & 0 & 2 & \frac{7}{5} \\
+            0 & 0 & 0 & 3
+        \end{bmatrix}
+    \]
+    be a matrix which decomposes as $A=UDU^{-1}$, where
+    \[
+        U = 
+        \begin{bmatrix}
+            1 & -1 & 18 & 1 \\
+            0 & 2 & 1 & -1 \\
+            0 & 0 & 3 & 7 \\
+            0 & 0 & 0 & 5
+        \end{bmatrix},
+        \quad 
+        D =
+        \begin{bmatrix}
+            0 & 0 & 0 & 0 \\
+            0 & 2 & 0 & 0 \\
+            0 & 0 & 2 & 0 \\
+            0 & 0 & 0 & 3
+        \end{bmatrix}.
+    \]
+    Let $u_1,u_2,u_3,u_4$ be the columns of $U$ and
+    $\mathcal{B}=\{u_1,u_2,u_3,u_4\}$.
+    \begin{parts}
+        \part[6]
+        Fill out this table.
+        \ifprintanswers
+        \begin{center}
+            \begin{tabular}{|l|l|l|l|}
+                \hline
+                Eigenvalue $\lambda$ & Alg. Multiplicity of $\lambda$ &
+                Geo. Multiplicity of $\lambda$ & Basis for $E_\lambda$ \\
+                \hline 
+                 0 & 1 & 1 & $\{u_1\}$\\[10ex]
+                 \hline
+                 2 & 2 & 2 & $\{u_2,u_3\}$\\[10ex]
+                 \hline
+                 3 & 1 & 1 & $\{u_4\}$\\[10ex]
+                 \hline
+            \end{tabular}
+        \end{center}
+        \else
+        \begin{center}
+            \begin{tabular}{|l|l|l|l|}
+                \hline
+                Eigenvalue $\lambda$ & Alg. Multiplicity of $\lambda$ &
+                Geo. Multiplicity of $\lambda$ & Basis for $E_\lambda$ \\
+                \hline 
+                 & & & \\[10ex]
+                 \hline
+                 & & & \\[10ex]
+                 \hline
+                 & & & \\[10ex]
+                 \hline
+            \end{tabular}
+        \end{center}
+        \fi
+        \part[3]
+        Let $x=u_1+u_2+u_3+u_4$. Express $A^{18}x$ as a linear combination of
+        $u_1,u_2,u_3,u_4$. You are allowed to have exponents of numbers in your
+        answer. (Hint: $x$ has been expressed as the sum of eigenvectors.)
+        \begin{solution}
+            $2^{18}u_2+2^{18}u_3+3^{18}u_4$.
+        \end{solution}
+        \vfill
+        \part[3]
+        What are the eigenvalues for $A^2-2A$?
+        \begin{solution}
+            $0,3$
+        \end{solution}
+        \vfill
+    \end{parts}
+
+    \newpage
+    % Question 6
+    \question
+    
+    Let $T(x) = Ax$, where $A$ is as defined in Question 5. Let
+    $u_1,u_2,u_3,u_4$ also be as defined in Question 5.
+    \begin{parts}
+        \part[4]
+        Give two vectors $v,w$ such that the triangle with vertices
+        $\{T(0),T(v),T(w)\}$ has 6 times the area as the triangle with vertices
+        $\{0,v,w\}$. Be sure to justify your answer. (Hint: It is unnecessary
+        to compute the area of these triangles.)
+        \begin{solution}
+            Let $v=u_2$ and $w=u_4$. Then $T(u_2)=2u_2$ and $T(u_4)=3u_4$. So
+            the area of the triangle increased by a factor of 6.
+        \end{solution}
+        \vfill
+        \part[4]
+        Find a basis for each of the following subspaces. If a subspace is
+        trivial, then write $\emptyset$ for its basis.
+        \begin{itemize}
+            \item 
+                $\nll(A-2I)$
+                \begin{solution}
+                    This is a basis for the eigenspace corresponding to 2,
+                    $\{u_2,u_3\}$.
+                \end{solution}
+                \vfill
+            \item
+                $\nll(A^2-3I)$.
+                \begin{solution}
+                    Since $3$ is not an eigenvalue of $A^2$, this subspace is
+                    trivial so a basis is $\emptyset$.
+                \end{solution}
+                \vfill
+        \end{itemize}
+        \part[4] 
+        Let $B=\{u_1,u_2,u_3,u_4\}$ be a basis.
+        \begin{itemize}
+            \item 
+                What is the general solution to $Ax=u_2+2u_3$?
+                \begin{solution}
+                    \[
+                        x=(1/2u_2+u_3)+s_1(u_1)
+                    \]
+                \end{solution}
+                \vfill
+            \item
+                Let $y$ be a particular solution to the above linear system.
+                What is $[y]_B$?
+                \begin{solution}
+                    \[
+                        (0,1/2,1,0)
+                    \]
+                \end{solution}
+                \vfill
+        \end{itemize}
+    \end{parts}
+\end{questions}
+\end{document}
