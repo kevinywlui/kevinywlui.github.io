@@ -33,11 +33,11 @@
   "syllabus.out" 1514879085 0 d41d8cd98f00b204e9800998ecf8427e ""
   "syllabus.tex" 1514879066 2557 624eaa258e0a60042c91cc7a14d4ea8a ""
   (generated)
-  "syllabus.log"
   "syllabus.dvi"
-  "syllabus.out"
   "syllabus.aux"
-["pdflatex"] 1522007340 "syllabus.tex" "syllabus.pdf" "syllabus" 1522007341
+  "syllabus.log"
+  "syllabus.out"
+["pdflatex"] 1522009598 "syllabus.tex" "syllabus.pdf" "syllabus" 1522009599
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1520157216 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1520157226 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1520157226 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -71,11 +71,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1520157258 32585 d82bbcf7626b7842c87671687479e852 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1520568065 2570953 760b5bb0cbd280885d9f95318df536c1 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1520568057 7738160 9d3243cbe5803d6dab07a4a3d3a911d7 ""
-  "syllabus.aux" 1522007341 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "syllabus.out" 1522007340 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "syllabus.tex" 1522007328 2571 3d58fc97cad1cb0eedaa9de225b16a33 ""
+  "syllabus.aux" 1522009599 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "syllabus.out" 1522009599 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "syllabus.tex" 1522009591 2405 3d3b47af61bf56dde74b8d53c01f86f2 ""
   (generated)
-  "syllabus.out"
-  "syllabus.aux"
-  "syllabus.log"
   "syllabus.pdf"
+  "syllabus.out"
+  "syllabus.log"
+  "syllabus.aux"
