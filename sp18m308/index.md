@@ -2,7 +2,7 @@
 
 ## Office Hours in Padelford C8D
 
-* Monday 9 - 11
+* Monday 9:30 - 11:30
 
 ![](https://imgs.xkcd.com/comics/matrix_transform.png)
 
