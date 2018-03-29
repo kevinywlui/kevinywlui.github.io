@@ -2,10 +2,8 @@
 
 Here I organize some articles and papers that I found interesting.
 
-## Falting Height
+* [Empirical Evidence for the BSD Conjectures for Modular Jacobians of Genus 2
+  curves][FLSSSW01]
 
-* <https://www2.mathematik.hu-berlin.de/~bakkerbe/faltings6.pdf>
-* <http://www.martinorr.name/blog/2011/11/17/the-faltings-height-of-an-abelian-variety-over-Q/>
-* <http://math.stanford.edu/~conrad/mordellsem/Notes/L01.pdf>
-* <https://arxiv.org/pdf/1710.10915.pdf>
-* <https://arxiv.org/pdf/1505.05112.pdf>
+
+[FLSSSW01]: https://www.ams.org/journals/mcom/2001-70-236/S0025-5718-01-01320-5/S0025-5718-01-01320-5.pdf
