@@ -15,17 +15,16 @@
 
 ## Schedule
 
----     |---
-Week 1  | Section 1.1, 1.2
-Week 2  | Section 2.1, 2.2, 2.3
-Week 3  | Section 2.3, 3.1
-Week 4  | Section 3.1, Midterm
-Week 5  | Section 3.2, 3.3
-Week 6  | Section 4.1, 4.2
-Week 7  | Section 4.3, 4.4, 5.1
-Week 8  | Section 5.2, Midterm
-Week 9  | Section 6.1, 6.2
-Week 10 | Section 6.2, 6.3
+* Week 1  - Section 1.1, 1.2
+* Week 2  - Section 2.1, 2.2, 2.3
+* Week 3  - Section 2.3, 3.1
+* Week 4  - Section 3.1, Midterm
+* Week 5  - Section 3.2, 3.3
+* Week 6  - Section 4.1, 4.2
+* Week 7  - Section 4.3, 4.4, 5.1
+* Week 8  - Section 5.2, Midterm
+* Week 9  - Section 6.1, 6.2
+* Week 10 - Section 6.2, 6.3
 
 ## Links
 
