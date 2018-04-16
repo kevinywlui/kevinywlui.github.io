@@ -2,10 +2,10 @@
 
 ## Wi '18 Exams
 
-* Midterm 1 [[questions](./wi18_midterm1.pdf)][[answers](./wi18_midterm1sol.pdf)] 
-* Midterm 2 [[questions](./wi18_midterm2.pdf)][[answers](./wi18_midterm2sol.pdf)] 
-* Final G [[questions](./wi18g_final.pdf)][[answers](./wi18g_finalsol.pdf)] 
-* Final H [[questions](./wi18h_final.pdf)][[answers](./wi18h_finalsol.pdf)] 
+* Midterm 1 [[questions](./wi18_midterm1.pdf)][[answers](./wi18_midterm1sol.pdf)] - 63% median
+* Midterm 2 [[questions](./wi18_midterm2.pdf)][[answers](./wi18_midterm2sol.pdf)] - 83% median 
+* Final G [[questions](./wi18g_final.pdf)][[answers](./wi18g_finalsol.pdf)] - 83% median
+* Final H [[questions](./wi18h_final.pdf)][[answers](./wi18h_finalsol.pdf)] 83% median
 
 
 ## Fall '17 Exams
