@@ -1,5 +1,9 @@
 # Math 308 Exams
 
+## Sp '18 Exams
+
+* Midterm 1 [[questions](./sp18_midterm1.pdf)][[answers](./sp18_midterm1sol.pdf)] 
+
 ## Wi '18 Exams
 
 * Midterm 1 [[questions](./wi18_midterm1.pdf)][[answers](./wi18_midterm1sol.pdf)] - 63% median
