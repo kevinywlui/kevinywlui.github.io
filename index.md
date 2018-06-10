@@ -17,5 +17,5 @@ title: Kevin Lui
 
 ## Links
 
-* <i class="fas fa-envelope"></i> [Email](klui@uw.edu)
+* <i class="fas fa-envelope"></i> [Email](<klui@uw.edu>)
 * <i class="fab fa-github-square"></i> [Github](https://github.com/kevinywlui/)
