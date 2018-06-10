@@ -5,7 +5,7 @@ HTMLS = $(patsubst %.md,%.html,$(SRCS))
 all: $(PDFS) $(HTMLS) sp18m308 wi18m308 au17m308 su17m126 papers
 
 %.html: %.md
-	pandoc $< -o $@ --template template.html
+	pandoc $< -o $@ --template template.html --email-obfuscation=javascript
 
 .PHONY: sp18m308 wi18m308 au17m308 su17m126 papers
 
