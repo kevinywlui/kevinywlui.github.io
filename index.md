@@ -1,7 +1,12 @@
-# Kevin Lui (<klui@uw.edu>)
+---
+title: Kevin Lui
+---
+# Kevin Lui
 
-I am a graduate student working with [William Stein](http://wstein.org/). I
-like [sage-ing](http://www.sagemath.org/), math-ing, and climbing.
+* I am a 4th-year graduate student working with [William
+  Stein](http://wstein.org/). 
+* My research is in computing BSD invariants of certain abelian varieties.
+* I like [sage-ing](http://www.sagemath.org/), math-ing, and climbing.
 
 ## Teaching
 
@@ -12,4 +17,5 @@ like [sage-ing](http://www.sagemath.org/), math-ing, and climbing.
 
 ## Links
 
-* [Github](https://github.com/kevinywlui/)
+* <i class="fas fa-envelope"></i> [Email](klui@uw.edu)
+* <i class="fab fa-github-square"></i> [Github](https://github.com/kevinywlui/)
