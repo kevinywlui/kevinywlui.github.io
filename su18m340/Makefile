@@ -4,4 +4,4 @@ HTMLS = $(patsubst %.md,%.html,$(SRCS))
 all: $(HTMLS)
 
 %.html: %.md
-	pandoc $< -o $@ --template template.html --email-obfuscation=javascript
+	pandoc -f markdown+pipe_tables $< -o $@ --template template.html --email-obfuscation=javascript

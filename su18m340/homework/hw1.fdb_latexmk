@@ -1,0 +1,20 @@
+# Fdb version 3
+["pdflatex"] 1529199787 "hw1.tex" "hw1.pdf" "hw1" 1529199787
+  "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1525040097 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1525040101 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1525040095 34811 78b52f49e893bcba91bd7581cdc144c0 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1525040095 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1525040095 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texmf-dist/tex/latex/base/article.cls" 1525040104 19823 fcbc01552b07b608574cbf8e1977e0c0 ""
+  "/usr/share/texmf-dist/tex/latex/base/omscmr.fd" 1525040104 2472 aa08940f0a4dc6c24ae9f943b04ae0b9 ""
+  "/usr/share/texmf-dist/tex/latex/base/size10.clo" 1525040104 8294 b0f177401f895563eb19304d2389582d ""
+  "/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty" 1525020835 2789 05b418f78b224ec872f5b11081138605 ""
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1525040116 33301 a3134070eacafb10b1f371612ce2650d ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1529191393 2587179 fcbc6712a0ee436de343220061605fd9 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1529191391 7906416 bc591cf7b96d8b8c5c8ca665f902ae8b ""
+  "hw1.aux" 1529199787 8 a94a2480d3289e625eea47cd1b285758 ""
+  "hw1.tex" 1529199785 739 6a9bd004bc9e08704f1aca57c6bb66c6 ""
+  (generated)
+  "hw1.aux"
+  "hw1.pdf"
+  "hw1.log"
