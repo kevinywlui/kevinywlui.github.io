@@ -29,6 +29,8 @@ title: Math 340 Su'18 Kevin Lui
 
 * [Introduction to Mathematical
   Arguments - Hutching](https://math.berkeley.edu/~hutching/teach/proofs.pdf)
+* [Some Remarks on Writing Mathematical Proofs -
+  Lee](https://sites.math.washington.edu/~lee/Writing/writing-proofs.pdf)
 
 ## Notes
 
