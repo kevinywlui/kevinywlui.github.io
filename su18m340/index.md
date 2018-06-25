@@ -11,18 +11,22 @@ title: Math 340 Su'18 Kevin Lui
 ## Important Dates
 
 * 7/4 - No class
-* 7/20- Midterm
+* 7/20 - Midterm
 * 8/17 - Final
 
 ## Calendar
 
-| Lecture | Date | Topics Cover                            | Remarks |
-| ---     | ---  | ---                                     | ---     |
-| 1       | 6/18 | Introduction (1.1), Vector Spaces (1.2) |         |
+| Lecture | Date | Topics Cover                              | Remarks                |
+| ---     | ---  | ---                                       | ---                    |
+| 1       | 6/18 | Introduction (1.1), Vector Spaces (1.2)   | [Log](./log/6-18.html) |
+| 2       | 6/20 | Subspaces (1.3), Linear Combinations(1.4) | [Log](./log/6-20.html) |
+| 3       | 6/22 | Linear Independence (1.5)                 | [Log](./log/6-22.html) |
+| 4       | 6/25 | Bases and Dimension (1.6)                 | [Log](./log/6-25.html) |
 
 | Homework                         | Due Date |
 | ---                              | ---      |
 | [Homework 1](./homework/hw1.pdf) | 6/25     |
+| [Homework 2](./homework/hw2.pdf) | 7/2      |  
 
 
 ## Articles
