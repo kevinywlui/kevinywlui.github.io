@@ -27,6 +27,9 @@ title: Math 340 Su'18 Kevin Lui
 | 5       | 6/27 | Bases and Dimension (1.6)                 | [Log](./log/6-27.html) |
 | 6       | 6/29 | Linear Transformations (2.1)              | [Log](./log/6-29.html) |
 | Week 3  |      |                                           |                        |
+| 7       | 7/2  | Linear Transformations (2.1)              | [Log](./log/7-2.pdf)   |
+| 8       | 7/4  | no class                                  |                        |
+| 9       | 7/6  | Matrices (2.2), Compositions (2.3)        | [Log](./log/7-6.html)  |
 
 | Homework                         | Due Date |
 | ---                              | ---      |
