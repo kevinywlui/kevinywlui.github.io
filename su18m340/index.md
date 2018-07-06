@@ -18,15 +18,21 @@ title: Math 340 Su'18 Kevin Lui
 
 | Lecture | Date | Topics Cover                              | Remarks                |
 | ---     | ---  | ---                                       | ---                    |
+| Week 1  |      |                                           |                        |
 | 1       | 6/18 | Introduction (1.1), Vector Spaces (1.2)   | [Log](./log/6-18.html) |
 | 2       | 6/20 | Subspaces (1.3), Linear Combinations(1.4) | [Log](./log/6-20.html) |
 | 3       | 6/22 | Linear Independence (1.5)                 | [Log](./log/6-22.html) |
+| Week 2  |      |                                           |                        |
 | 4       | 6/25 | Bases and Dimension (1.6)                 | [Log](./log/6-25.html) |
+| 5       | 6/27 | Bases and Dimension (1.6)                 | [Log](./log/6-27.html) |
+| 6       | 6/29 | Linear Transformations (2.1)              | [Log](./log/6-29.html) |
+| Week 3  |      |                                           |                        |
 
 | Homework                         | Due Date |
 | ---                              | ---      |
 | [Homework 1](./homework/hw1.pdf) | 6/25     |
-| [Homework 2](./homework/hw2.pdf) | 7/2      |  
+| [Homework 2](./homework/hw2.pdf) | 7/2      |
+| [Homework 3](./homework/hw3.pdf) | 7/9      |
 
 
 ## Articles
