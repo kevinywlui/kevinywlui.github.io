@@ -30,12 +30,15 @@ title: Math 340 Su'18 Kevin Lui
 | 7       | 7/2  | Linear Transformations (2.1)              | [Log](./log/7-2.pdf)   |
 | 8       | 7/4  | no class                                  |                        |
 | 9       | 7/6  | Matrices (2.2), Compositions (2.3)        | [Log](./log/7-6.html)  |
+| Week 4  |      |                                           |                        |
+| 10      | 7/9  | Compostions (2.3), Invertibility (2.4)    | [Log](./log/7-9.pdf)   |
 
 | Homework                         | Due Date |
 | ---                              | ---      |
 | [Homework 1](./homework/hw1.pdf) | 6/25     |
 | [Homework 2](./homework/hw2.pdf) | 7/2      |
 | [Homework 3](./homework/hw3.pdf) | 7/9      |
+| [Homework 4](./homework/hw4.pdf) | 7/16     |
 
 
 ## Articles
