@@ -32,6 +32,11 @@ title: Math 340 Su'18 Kevin Lui
 | 9       | 7/6  | Matrices (2.2), Compositions (2.3)        | [Log](./log/7-6.html)  |
 | Week 4  |      |                                           |                        |
 | 10      | 7/9  | Compostions (2.3), Invertibility (2.4)    | [Log](./log/7-9.pdf)   |
+| 11      | 7/11 | Compostions (2.3), Invertibility (2.4)    | [Log](./log/7-11.pdf)  |
+| 12      | 7/13 | Invertibility (2.4)                       |                        |
+| Week 5  |      |                                           |                        |
+| 13      | 7/16 | Intro to Sage                             | See cheat sheet below  |
+| 14      | 7/18 | Midterm Review                            | [Log](./log/7-18.pdf)  |
 
 | Homework                         | Due Date |
 | ---                              | ---      |
@@ -41,6 +46,10 @@ title: Math 340 Su'18 Kevin Lui
 | [Homework 4](./homework/hw4.pdf) | 7/16     |
 
 
+## Links
+
+* [Sage cheat sheet](https://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-linalg.pdf)
+ 
 ## Articles
 
 * [Introduction to Mathematical
