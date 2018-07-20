@@ -47,7 +47,7 @@ title: Math 340 Su'18 Kevin Lui
 
 ## Past Exams
 
-* [midterm](./midterm.pdf) [midterm solutions](./midterm_sol.pdf)
+* [midterm](./midterm.pdf) / [midterm solutions](./midterm_sol.pdf)
 
 
 ## Links
