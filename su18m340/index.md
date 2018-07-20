@@ -45,6 +45,10 @@ title: Math 340 Su'18 Kevin Lui
 | [Homework 3](./homework/hw3.pdf) | 7/9      |
 | [Homework 4](./homework/hw4.pdf) | 7/16     |
 
+## Past Exams
+
+* [midterm](./midterm.pdf) [midterm solutions](./midterm_sol.pdf)
+
 
 ## Links
 
