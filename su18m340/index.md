@@ -39,9 +39,13 @@ title: Math 340 Su'18 Kevin Lui
 | 14      | 7/18 | Midterm Review                            | [Log](./log/7-18.pdf)  |
 | 15      | 7/20 | Midterm                                   |                        |
 | Week 6  |      |                                           |                        |
-| 16      | 7/23 | Effects of composition on rank (3)        | [Log](./log/7-23.html)  |
-| 17      | 7/25 | Linear Systems (3)                        | [Log](./log/7-25.html)  |
-| 18      | 7/27 | Defining Properties of Determinant (4.5)  | [Log](./log/7-27.html)  |
+| 16      | 7/23 | Effects of composition on rank (3)        | [Log](./log/7-23.html) |
+| 17      | 7/25 | Linear Systems (3)                        | [Log](./log/7-25.html) |
+| 18      | 7/27 | Defining Properties of Determinant (4.5)  | [Log](./log/7-27.html) |
+| Week 7  |      |                                           |                        |
+| 19      | 7/30 | More properties of determinants (4.5)     | [Log](./log/7-30.html) |
+| 20      | 8/1  | Determinants and properties               | [Log](./log/8-1.html)  |
+| 21      | 8/3  | Eigenstuff                                | [Log](./log/8-3.html)  |
 
 | Homework                         | Due Date |
 | ---                              | ---      |
@@ -51,6 +55,7 @@ title: Math 340 Su'18 Kevin Lui
 | [Homework 4](./homework/hw4.pdf) | 7/16     |
 | [Homework 5](./homework/hw5.pdf) | 7/30     |
 | [Homework 6](./homework/hw6.pdf) | 7/37     |
+| [Homework 7](./homework/hw7.pdf) | 7/44     |
 
 ## Past Exams
 
