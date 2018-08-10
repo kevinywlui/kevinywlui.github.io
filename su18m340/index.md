@@ -46,6 +46,10 @@ title: Math 340 Su'18 Kevin Lui
 | 19      | 7/30 | More properties of determinants (4.5)     | [Log](./log/7-30.html) |
 | 20      | 8/1  | Determinants and properties               | [Log](./log/8-1.html)  |
 | 21      | 8/3  | Eigenstuff                                | [Log](./log/8-3.html)  |
+| Week 8  |      |                                           |                        |
+| 22      | 8/6  |                                           | [Log](./log/8-6.html)  |
+| 23      | 8/8  |                                           | [Log](./log/8-8.html)  |
+| 24      | 8/10 |                                           | [Log](./log/8-10.html) |
 
 | Homework                         | Due Date |
 | ---                              | ---      |
