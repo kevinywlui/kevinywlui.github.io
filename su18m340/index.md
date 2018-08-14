@@ -60,6 +60,7 @@ title: Math 340 Su'18 Kevin Lui
 | [Homework 5](./homework/hw5.pdf) | 7/30     |
 | [Homework 6](./homework/hw6.pdf) | 7/37     |
 | [Homework 7](./homework/hw7.pdf) | 7/44     |
+| [Homework 8](./homework/hw8.pdf) | never    |
 
 ## Past Exams
 
