@@ -10,6 +10,7 @@ title: Kevin Lui
 
 ## Teaching
 
+* [Spring 2019](./sp19m308)
 * [Summer 2018](./su18m340)
 * [Spring 2018](./sp18m308)
 * [Winter 2018](./wi18m308)
