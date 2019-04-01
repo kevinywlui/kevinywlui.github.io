@@ -20,6 +20,8 @@ We will follow this roughly except both midterms are on Fridays:
 
 ## Links
 
+* [Departmental page](https://sites.math.washington.edu/~m308/)
 * [Syllabus](./syllabus.pdf)
 * [Exams](../m308exams)
 * [Amazing linear algebra videos by 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+* [Kevin's questionable log](./log.html)
