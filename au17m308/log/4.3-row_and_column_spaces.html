@@ -1,51 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="generator" content="pandoc" />
-  <title></title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code > span.dt { color: #902000; } /* DataType */
-code > span.dv { color: #40a070; } /* DecVal */
-code > span.bn { color: #40a070; } /* BaseN */
-code > span.fl { color: #40a070; } /* Float */
-code > span.ch { color: #4070a0; } /* Char */
-code > span.st { color: #4070a0; } /* String */
-code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code > span.ot { color: #007020; } /* Other */
-code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code > span.fu { color: #06287e; } /* Function */
-code > span.er { color: #ff0000; font-weight: bold; } /* Error */
-code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-code > span.cn { color: #880000; } /* Constant */
-code > span.sc { color: #4070a0; } /* SpecialChar */
-code > span.vs { color: #4070a0; } /* VerbatimString */
-code > span.ss { color: #bb6688; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { color: #19177c; } /* Variable */
-code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code > span.op { color: #666666; } /* Operator */
-code > span.bu { } /* BuiltIn */
-code > span.ex { } /* Extension */
-code > span.pp { color: #bc7a00; } /* Preprocessor */
-code > span.at { color: #7d9029; } /* Attribute */
-code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-  </style>
-  <link rel="stylesheet" href="http://kevinlui.org/style.css" type="text/css" />
-</head>
-<body>
 <h1 id="row-and-column-spaces">Row and column spaces</h1>
 <p><strong>Definition</strong>: Let <span class="math inline"><em>A</em></span> be <span class="math inline"><em>n</em> × <em>m</em></span> matrix. Then</p>
 <ul>
@@ -63,18 +15,16 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 3 &amp; -1 &amp; 2 &amp; 1 \\
 5 &amp; 0 &amp; 1 &amp; -1
 \end{bmatrix}$$</span><br /> Find a basis for the row space. Find a basis for the column space. Determine the rank of <span class="math inline"><em>A</em></span>.</p>
-<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="co"># We compute the rref of A and stare at it</span>
-A <span class="op">=</span> matrix([[<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>],[<span class="dv">3</span>,<span class="op">-</span><span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">1</span>],[<span class="dv">5</span>,<span class="dv">0</span>,<span class="dv">1</span>,<span class="op">-</span><span class="dv">1</span>]])
-B <span class="op">=</span> A.rref()<span class="op">;</span> B
-<span class="co"># The first 3 columns of A form a basis (so does the standard basis) for the column space</span>
-<span class="co"># The rows of B form a basis for the row space</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb1-1" title="1"><span class="co"># We compute the rref of A and stare at it</span></a>
+<a class="sourceLine" id="cb1-2" title="2">A <span class="op">=</span> matrix([[<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>],[<span class="dv">3</span>,<span class="op">-</span><span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">1</span>],[<span class="dv">5</span>,<span class="dv">0</span>,<span class="dv">1</span>,<span class="op">-</span><span class="dv">1</span>]])</a>
+<a class="sourceLine" id="cb1-3" title="3">B <span class="op">=</span> A.rref()<span class="op">;</span> B</a>
+<a class="sourceLine" id="cb1-4" title="4"><span class="co"># The first 3 columns of A form a basis (so does the standard basis) for the column space</span></a>
+<a class="sourceLine" id="cb1-5" title="5"><span class="co"># The rows of B form a basis for the row space</span></a></code></pre></div>
 <pre><code>[     1      0      0 -13/28]
 [     0      1      0    1/4]
 [     0      0      1  37/28]</code></pre>
 <p><strong>Definition:</strong> The <strong>nullity</strong> of a matrix <span class="math inline"><em>A</em></span>, denoted <span class="math inline"><em>n</em><em>u</em><em>l</em><em>l</em>(<em>A</em>)</span>, is the dimension of the solution space to <span class="math inline"><em>A</em><em>x</em> = 0</span>.</p>
 <p><strong>Example:</strong> What is the nullity of the previous <span class="math inline"><em>A</em></span>? (It is 1).</p>
-<p><strong>Theorem:</strong> (Rank-Nullity Theorem) Let <span class="math inline"><em>A</em></span> be a <span class="math inline"><em>n</em> × <em>m</em></span> matrix. Then <span class="math inline"><em>r</em><em>a</em><em>n</em><em>k</em>(<em>A</em>)+<em>n</em><em>u</em><em>l</em><em>l</em><em>i</em><em>t</em><em>y</em>(<em>A</em>)=<em>m</em></span>.</p>
+<p><strong>Theorem:</strong> (Rank-Nullity Theorem) Let <span class="math inline"><em>A</em></span> be a <span class="math inline"><em>n</em> × <em>m</em></span> matrix. Then <span class="math inline"><em>r</em><em>a</em><em>n</em><em>k</em>(<em>A</em>) + <em>n</em><em>u</em><em>l</em><em>l</em><em>i</em><em>t</em><em>y</em>(<em>A</em>) = <em>m</em></span>.</p>
 <h2 id="linear-transform-perspective">Linear transform perspective</h2>
-<p>Let <span class="math inline"><em>T</em> : ℝ<sup><em>n</em></sup> → ℝ<sup><em>m</em></sup></span> be a linear transform. Let <span class="math inline"><em>A</em></span> be the matrix so that <span class="math inline"><em>T</em>(<em>x</em>)=<em>A</em><em>x</em></span>. Then <span class="math inline"><em>r</em><em>a</em><em>n</em><em>g</em><em>e</em>(<em>T</em>)=<em>c</em><em>o</em><em>l</em>(<em>A</em>)</span> so we know that hte rank of <span class="math inline"><em>A</em></span> is the dimension of the range. We know that the nullity is the dimension of the kernel. So dimension of range + dimension of kernel is the dimension of the domain.</p>
-</body>
-</html>
+<p>Let <span class="math inline"><em>T</em> : ℝ<sup><em>n</em></sup> → ℝ<sup><em>m</em></sup></span> be a linear transform. Let <span class="math inline"><em>A</em></span> be the matrix so that <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span>. Then <span class="math inline"><em>r</em><em>a</em><em>n</em><em>g</em><em>e</em>(<em>T</em>) = <em>c</em><em>o</em><em>l</em>(<em>A</em>)</span> so we know that hte rank of <span class="math inline"><em>A</em></span> is the dimension of the range. We know that the nullity is the dimension of the kernel. So dimension of range + dimension of kernel is the dimension of the domain.</p>

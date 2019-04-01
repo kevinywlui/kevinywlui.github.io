@@ -1,14 +1,10 @@
 SRCS = $(wildcard *.md)
-PDFS = $(patsubst %.md,%.pdf,$(SRCS))
 HTMLS = $(patsubst %.md,%.html,$(SRCS))
 
-all: $(PDFS) $(HTMLS) exams log
-
-%.pdf: %.md
-	pandoc $< -o $@
+all: $(HTMLS) exams log
 
 %.html: %.md
-	pandoc $< -o $@ --css http://kevinlui.org/style.css
+	pandoc $< -o $@ --template template.html --email-obfuscation=javascript
 
 .PHONY: exams log
 

@@ -1,13 +1,12 @@
 SRCS = $(wildcard *.md)
-PDFS = $(patsubst %.md,%.pdf,$(SRCS))
 HTMLS = $(patsubst %.md,%.html,$(SRCS))
 
-all: $(PDFS) $(HTMLS) sp18m308 wi18m308 au17m308 su17m126 papers
+all: $(HTMLS) sp18m308 wi18m308 au17m308 su17m126
 
 %.html: %.md
 	pandoc $< -o $@ --template template.html --email-obfuscation=javascript
 
-.PHONY: sp18m308 wi18m308 au17m308 su17m126 papers
+.PHONY: sp18m308 wi18m308 au17m308 su17m126
 
 sp18m308:
 	$(MAKE) -C sp18m308
@@ -21,5 +20,3 @@ au17m308:
 su17m126:
 	$(MAKE) -C su17m126
 
-papers:
-	$(MAKE) -C papers

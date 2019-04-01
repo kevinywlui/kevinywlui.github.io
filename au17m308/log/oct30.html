@@ -1,14 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="generator" content="pandoc" />
-  <title></title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="http://kevinlui.org/style.css" type="text/css" />
-</head>
-<body>
 <h1 id="october-27">October 27</h1>
 <h2 id="announcements">Announcements</h2>
 <ul>
@@ -32,8 +21,8 @@
 <p>The empty set is the basis for the zero subspace <span class="math inline">{0}</span>. It has dimension <span class="math inline">0</span>.</p>
 <p><strong>Theorem:</strong></p>
 <ul>
-<li><p>A set <span class="math inline"><em>B</em></span> is a basis for <span class="math inline"><em>S</em></span> if it is a maximal linearly independent set. This means you can't add any vectors to <span class="math inline"><em>B</em></span> and have it still be linearly independent.</p></li>
-<li><p>A set <span class="math inline"><em>B</em></span> is a basis for <span class="math inline"><em>S</em></span> if it is a minimal set that spans <span class="math inline"><em>S</em></span>. This means you can't substract any vectors from <span class="math inline"><em>B</em></span> and have it still be spanning.</p></li>
+<li><p>A set <span class="math inline"><em>B</em></span> is a basis for <span class="math inline"><em>S</em></span> if it is a maximal linearly independent set. This means you can’t add any vectors to <span class="math inline"><em>B</em></span> and have it still be linearly independent.</p></li>
+<li><p>A set <span class="math inline"><em>B</em></span> is a basis for <span class="math inline"><em>S</em></span> if it is a minimal set that spans <span class="math inline"><em>S</em></span>. This means you can’t substract any vectors from <span class="math inline"><em>B</em></span> and have it still be spanning.</p></li>
 </ul>
 <p><strong>Example:</strong></p>
 <p>Let <span class="math inline"><em>S</em></span> be the subspace given by <span class="math inline"><em>w</em> + <em>x</em> + <em>y</em> + <em>z</em> = 0</span>. What is the dimension? Give 2 3 different basis.</p>
@@ -43,7 +32,7 @@
 <p>Let <span class="math inline"><em>A</em></span> and <span class="math inline"><em>B</em></span> be equivalent matrices. Then the</p>
 <p>Proof: The matrix <span class="math inline"><em>A</em></span> is equivalent to <span class="math inline"><em>B</em></span> if <span class="math inline"><em>A</em></span> can be obtained from <span class="math inline"><em>B</em></span> using elementary row opeartions. There are 3 such operations. None of them change the span.</p>
 <p><strong>Example:</strong></p>
-<p>Let <span class="math inline"><em>S</em></span> be the subspace spanned by <span class="math inline"><em>u</em><sub>1</sub> = ( − 1, 2, 3, 1),<em>u</em><sub>2</sub> = ( − 6, 7, 5, 2),<em>u</em><sub>3</sub> = (4, −3, 1, 0)</span>. Find a basis for <span class="math inline"><em>S</em></span>. What is the dimension of <span class="math inline"><em>S</em></span>?</p>
+<p>Let <span class="math inline"><em>S</em></span> be the subspace spanned by <span class="math inline"><em>u</em><sub>1</sub> = ( − 1, 2, 3, 1), <em>u</em><sub>2</sub> = ( − 6, 7, 5, 2), <em>u</em><sub>3</sub> = (4,  − 3, 1, 0)</span>. Find a basis for <span class="math inline"><em>S</em></span>. What is the dimension of <span class="math inline"><em>S</em></span>?</p>
 <p>(just find rref, and use the rows)</p>
 <p>Notice we just take the nonzero rows.</p>
 <p><strong>Theorem:</strong></p>
@@ -51,11 +40,9 @@
 <p>If <span class="math inline">2<em>u</em><sub>1</sub> − <em>u</em><sub>2</sub> = <em>u</em><sub>3</sub></span> then <span class="math inline">2<em>v</em><sub>1</sub> − <em>v</em><sub>2</sub> = <em>v</em><sub>3</sub></span>.</p>
 <p>Proof: Relations correspond to solutions to <span class="math inline"><em>U</em><em>x</em> = 0</span> and <span class="math inline"><em>V</em><em>x</em> = 0</span>. Since they are equivalent, the relations must be the same.</p>
 <p><strong>Example:</strong></p>
-<p>Let <span class="math inline"><em>S</em></span> be the subspace spanned by <span class="math inline"><em>u</em><sub>1</sub> = ( − 1, 2, 3, 1),<em>u</em><sub>2</sub> = ( − 6, 7, 5, 2),<em>u</em><sub>3</sub> = (4, −3, 1, 0)</span>. Find a basis for <span class="math inline"><em>S</em></span>. What is the dimension of <span class="math inline"><em>S</em></span>?</p>
+<p>Let <span class="math inline"><em>S</em></span> be the subspace spanned by <span class="math inline"><em>u</em><sub>1</sub> = ( − 1, 2, 3, 1), <em>u</em><sub>2</sub> = ( − 6, 7, 5, 2), <em>u</em><sub>3</sub> = (4,  − 3, 1, 0)</span>. Find a basis for <span class="math inline"><em>S</em></span>. What is the dimension of <span class="math inline"><em>S</em></span>?</p>
 <p>(use rref to determine relations between columns)</p>
 <p>Notice we only take the columns with leading variables.</p>
 <h2 id="row-and-column-spaces">4.3 row and column spaces</h2>
-<p>Let <span class="math inline"><em>T</em> : ℝ<sup><em>n</em></sup> → ℝ<sup><em>m</em></sup></span> be a linear transform given by <span class="math inline"><em>T</em>(<em>x</em>)=<em>A</em><em>x</em></span>. Recall that the the range is the span of the columns of <span class="math inline"><em>A</em></span> and the kernel is the space of solutions to <span class="math inline"><em>A</em><em>x</em> = 0</span>. The dimension of the range is called the rank of <span class="math inline"><em>A</em></span>, the dimension of the kernel is called the nullity.</p>
+<p>Let <span class="math inline"><em>T</em> : ℝ<sup><em>n</em></sup> → ℝ<sup><em>m</em></sup></span> be a linear transform given by <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span>. Recall that the the range is the span of the columns of <span class="math inline"><em>A</em></span> and the kernel is the space of solutions to <span class="math inline"><em>A</em><em>x</em> = 0</span>. The dimension of the range is called the rank of <span class="math inline"><em>A</em></span>, the dimension of the kernel is called the nullity.</p>
 <p>Do an example of this in class.</p>
-</body>
-</html>
