@@ -7,6 +7,15 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 04/03
+
+- Talk about changes to conceptual problems.
+- Now have a Canvas.
+- There will be a stranger in OH, but it'll be okay
+- Triangular implies echelon
+- Go through <http://kevinlui.org/au17m308/log/sep29.pdf>
+    - multiply by 2 on the first row
+
 ## 04/01
 
 - Basic info
@@ -20,4 +29,4 @@ myself so I might as well share it.
         - The week 3 one will be assigned this Friday
     - First webassign thing is due Thursday.
     - WA office hours are 11-3, 4/4 and 4/8 in the MSC
-- Go through http://kevinlui.org/au17m308/log/sep27.html
+- Go through <http://kevinlui.org/au17m308/log/sep27.pdf>
