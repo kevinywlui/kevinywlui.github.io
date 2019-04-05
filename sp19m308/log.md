@@ -7,6 +7,20 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 04/05
+
+- Tell class to watch 3blue1blue video 1
+- Tell class that the Chapter 1 of conceptual problems are out
+- Do example here: <https://en.wikipedia.org/wiki/Gaussian_elimination>
+- Do Problem 1 here: <http://kevinlui.org/m308exams/au17_midterm1.pdf>
+- Point out what a homogenous solution is
+- Tell them what a particular solution is
+- Give a math 126 example
+- 2.1
+- Tell them what a vector is. It has nice properties. See book.
+- 2.2
+- Go through this: <http://kevinlui.org/au17m308/log/oct04.pdf>
+
 ## 04/03
 
 - Talk about changes to conceptual problems.
