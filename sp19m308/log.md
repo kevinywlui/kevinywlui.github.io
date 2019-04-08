@@ -7,6 +7,18 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 04/08
+
+- reduce echelon forms are unique.
+- Chapter 1 Conceptual problems are due with Chapter 2 next Friday.
+- Go through: <http://kevinlui.org/au17m308/log/oct04.pdf>
+- In general, talk a lot of about spans.
+- Linear combinations of linear combinations are linear combinations of
+  original thing.
+  - Use this to motivate span of two non-parallel vectors being RR^2.
+  - Does this work for RR3? No.
+
+
 ## 04/05
 
 - Tell class to watch 3blue1blue video 1
