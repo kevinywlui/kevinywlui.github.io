@@ -7,6 +7,14 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 04/10
+
+- PS 2 is out
+- Tell them about Ax=b
+- Show them
+  <https://cocalc.com/projects/ed9c7f20-1bf8-477b-96e4-2620d084978f/files/Sagemath.ipynb?session=default> 
+- Go through <http://kevinlui.org/au17m308/log/oct06.pdf>
+
 ## 04/08
 
 - reduce echelon forms are unique.
