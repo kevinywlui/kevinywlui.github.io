@@ -7,6 +7,14 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 04/12
+
+- Introduce Ax=b, as just linear combinations.
+- Uniqueness of solutions given by homogeneous solutions
+- Mention how LI and spanning relates to existence and uniqueness of solutions
+- Do unifying theorem
+- Do many many examples in class
+
 ## 04/10
 
 - PS 2 is out
