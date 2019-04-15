@@ -7,6 +7,14 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 04/15
+
+- Make a really big table. LI/Spanning/dims
+- Equivalent definitions of spanning, LI
+- Unifying theorem
+- If time, <http://kevinlui.org/au17m308/log/oct09.pdf> and
+  <http://kevinlui.org/au17m308/log/oct11.pdf>
+
 ## 04/12
 
 - Introduce Ax=b, as just linear combinations.
