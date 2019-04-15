@@ -3,9 +3,11 @@ title: Kevin Lui
 ---
 # Kevin Lui
 
-* I am a 4th-year graduate student working with [William
+* I am a 5th-year graduate student working with [William
   Stein](http://wstein.org/). 
-* My research is in computing BSD invariants of certain abelian varieties.
+* My research is in computations relating to modular abelian varieties.
+  Recently, I've been thinking a lot about Galois representations and
+  isogenies.
 * I like [sage-ing](http://www.sagemath.org/), math-ing, and climbing.
 
 ## Teaching
