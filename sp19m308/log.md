@@ -7,6 +7,15 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 04/17
+
+- Convince them that linear transformations are determined by what they do to
+  the standard basis.
+- Convince them that every linear transformation comes from a matrix.
+- Do this <http://kevinlui.org/au17m308/log/oct11.pdf>
+- If time, Kernel and ranges.
+
+
 ## 04/15
 
 - Make a really big table. LI/Spanning/dims
