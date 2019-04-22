@@ -7,6 +7,13 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 04/22
+
+- Mostly exam review
+- Probably do past exam problems.
+- Do a cool a problem that involves having to solve a linear system and then
+  stick it into a matrix. 
+
 ## 04/17
 
 - Convince them that linear transformations are determined by what they do to
