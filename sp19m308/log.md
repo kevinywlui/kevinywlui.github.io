@@ -7,6 +7,15 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 04/24
+
+- Solutions are posted on canvas. 
+- Midterm on Friday, up to and including 3.1. 
+- Be sure to understand conceptual problems.
+- Do the derivate thing and talk about the kernel...wow integration!
+- Relate to the conceptual problem related the derivatives. 
+- Do more past exam problems, take from Finals.
+
 ## 04/22
 
 - Mostly exam review

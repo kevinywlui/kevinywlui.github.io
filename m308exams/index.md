@@ -2,7 +2,7 @@
 
 ## Sp '18 Exams
 
-* Midterm 1 [[questions](./sp18_midterm1.pdf)][[answers](./sp18_midterm1sol.pdf)] 
+* Midterm 1 [[questions](./sp18_midterm1.pdf)][[answers](./sp18_midterm1sol.pdf)] - 85% median
 * Midterm 2 [[questions](./sp18_midterm2.pdf)][[answers](./sp18_midterm2sol.pdf)] 
 
 ## Wi '18 Exams
