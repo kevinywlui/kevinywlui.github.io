@@ -7,6 +7,19 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 04/29
+
+- Conceptual Problems Set 2 posted, due May 10
+- Watch 3blue1brown, 4
+- Go over low median problems, 1.3, 2.3, 3.4, 5.2 
+- Go over matrix multiplication. Do row stuff too.
+- <http://kevinlui.org/au17m308/log/oct20.pdf>
+- <http://kevinlui.org/au17m308/log/oct23.pdf>
+
+## 04/26
+
+- There was a midterm
+
 ## 04/24
 
 - Solutions are posted on canvas. 
