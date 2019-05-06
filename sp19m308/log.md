@@ -7,9 +7,41 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 05/06
+
+- Thursday office hours moved to 4-5
+- observe that kernels are given by a span
+- Basis. How to find. Row and column methods.
+- Membership testing.
+- <http://kevinlui.org/au17m308/log/oct30.pdf>
+- <http://kevinlui.org/au17m308/log/4.2-basis_and_dimension.pdf>
+- <http://kevinlui.org/au17m308/log/4.3-row_and_column_spaces.pdf>
+
+## 05/03
+
+- 3blue1brown 7,8.
+- Conceptual problems due in a week.
+- More matrix multiplication is function composition.
+- Despite what Webassign said to do, inverse to solve system is not that great
+  of an idea. (send to class?
+  <https://www.johndcook.com/blog/2010/01/19/dont-invert-that-matrix/>)
+  - it's slow
+  - numerical stability reasons.
+  - inverse can be dense when if original is not.
+- 1b from <http://kevinlui.org/m308exams/au17_midterm2.pdf>
+- Inverses are unique.
+- R2 to 3 to 2, one-sided inverse thing
+- Subspaces: http://kevinlui.org/au17m308/log/oct27.pdf
+
+## 05/01
+
+- More matrix multiplication
+- Matrix multiplication is function composition
+- Inverses. Wow you folks already learned this secretly. Nice.
+
 ## 04/29
 
-- Conceptual Problems Set 2 posted, due May 10
+- Conceptual Problems Set 2 posted, due May 10 - use camscanner
 - Watch 3blue1brown, 4
 - Go over low median problems, 1.3, 2.3, 3.4, 5.2 
 - Go over matrix multiplication. Do row stuff too.
