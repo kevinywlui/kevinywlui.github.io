@@ -7,6 +7,14 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 05/08
+- Thursday office hours moved to 4-5
+- Basis. How to find. Row and column methods.
+- Membership testing.
+- <http://kevinlui.org/au17m308/log/oct30.pdf>
+- <http://kevinlui.org/au17m308/log/4.2-basis_and_dimension.pdf>
+- <http://kevinlui.org/au17m308/log/4.3-row_and_column_spaces.pdf>
+
 ## 05/06
 
 - Thursday office hours moved to 4-5
