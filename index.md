@@ -19,7 +19,17 @@ title: Kevin Lui
 * [Autumn 2017](./au17m308)
 * [Summer 2017](./su17m126)
 
+## Projects
+
+* [Sage trac
+  tickets](https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&reporter=klui&max=0&col=id&col=summary&col=reporter&col=status&col=owner&col=type&col=priority&order=id)
+* [Orders in Sage (WIP)](https://github.com/kevinywlui/sage/tree/order)
+* [Google Summer of Code](https://github.com/williamstein/sage_modabvar)
+* [Latex Web Thing (needs new
+  name)](https://github.com/kevinywlui/latex_web_thing)
+
 ## Links
 
+* [Resume](./kevin_lui_resume.pdf)
 * <i class="fas fa-envelope"></i> [Email](mailto:klui@uw.edu)
 * <i class="fab fa-github-square"></i> [Github](https://github.com/kevinywlui/)
