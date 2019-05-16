@@ -7,7 +7,19 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 05/13
+
+- Left multiplication affects rows 
+- Row operations yields invertible matrices
+- Rank and nullity doesn't change when multiplied by invertible matrices
+- talk a bit about change of basis
+
+## 05/10
+
+- <http://kevinlui.org/au17m308/log/4-review.pdf>
+
 ## 05/08
+
 - Thursday office hours moved to 4-5
 - Basis. How to find. Row and column methods.
 - Membership testing.

@@ -30,6 +30,6 @@ title: Kevin Lui
 
 ## Links
 
-* [Resume](./kevin_lui_resume.pdf)
+* <i class="fas fa-portrait"></i> [Resume](./kevin_lui_resume.pdf)
 * <i class="fas fa-envelope"></i> [Email](mailto:klui@uw.edu)
 * <i class="fab fa-github-square"></i> [Github](https://github.com/kevinywlui/)
