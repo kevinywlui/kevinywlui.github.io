@@ -7,6 +7,23 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 05/23
+
+- Review
+
+## 05/21
+
+- Review
+
+## 05/17
+
+- More determinants
+- Cofactor -> upper triangular -> REF method
+
+## 05/15
+
+- Talk about 4.4 and determinants
+
 ## 05/13
 
 - Left multiplication affects rows 
