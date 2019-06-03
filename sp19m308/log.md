@@ -7,6 +7,19 @@ myself so I might as well share it.
 
 ![](./loki.jpg)
 
+## 06/03
+
+- draw cool diagram explaining change of basis and eigenstuff
+- final review
+
+## week of 5/27
+
+- Eigen-stuff
+
+## 05/25
+
+- midterm
+
 ## 05/23
 
 - Review
