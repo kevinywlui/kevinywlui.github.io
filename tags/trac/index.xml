@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>trac on Kevin Lui Ph.D.</title>
+    <link>http://www.kevinlui.org/tags/trac/</link>
+    <description>Recent content in trac on Kevin Lui Ph.D.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 01 Aug 2019 16:22:11 -0700</lastBuildDate>
+    
+	<atom:link href="http://www.kevinlui.org/tags/trac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Developing for Sagemath</title>
+      <link>http://www.kevinlui.org/posts/developing_for_sagemath/</link>
+      <pubDate>Thu, 01 Aug 2019 16:22:11 -0700</pubDate>
+      
+      <guid>http://www.kevinlui.org/posts/developing_for_sagemath/</guid>
+      <description>For my first post, I&amp;rsquo;ll explain how to begin developing for Sagemath. This post is essentially a gist that I shared with members of the UW Sage Seminar. This is a short version of the official guide.
+Official Sagemath guide  https://doc.sagemath.org/html/en/developer/index.html  Setting up local development copy The first task will be to obtain a local development copy of Sagemath.
+ Clone Sagemath and checkout the develop branch</description>
+    </item>
+    
+  </channel>
+</rss>
