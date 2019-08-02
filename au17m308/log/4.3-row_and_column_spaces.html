@@ -1,0 +1,30 @@
+<h1 id="row-and-column-spaces">Row and column spaces</h1>
+<p><strong>Definition</strong>: Let <span class="math inline"><em>A</em></span> be <span class="math inline"><em>n</em> × <em>m</em></span> matrix. Then</p>
+<ul>
+<li>The <strong>row space</strong>, denoted <span class="math inline"><em>r</em><em>o</em><em>w</em>(<em>A</em>)</span>, of <span class="math inline"><em>A</em></span> is the subspace of <span class="math inline">ℝ<sup><em>m</em></sup></span> given by the span of the rows of <span class="math inline"><em>A</em></span>.</li>
+<li>The <strong>column space</strong>, denoted <span class="math inline"><em>c</em><em>o</em><em>l</em>(<em>A</em>)</span>, of <span class="math inline"><em>A</em></span> is the subspace of <span class="math inline">ℝ<sup><em>n</em></sup></span> given by the span of the columns of <span class="math inline"><em>A</em></span>.</li>
+</ul>
+<p><strong>Theorem:</strong> Let <span class="math inline"><em>A</em></span> be a matrix and <span class="math inline"><em>B</em></span> an echelon form of <span class="math inline"><em>A</em></span>.</p>
+<ul>
+<li>The nonzero rows of <span class="math inline"><em>B</em></span> form a basis for <span class="math inline"><em>r</em><em>o</em><em>w</em>(<em>A</em>)</span>.</li>
+<li>The columns of <span class="math inline"><em>A</em></span> corresponding to the pivot columns of <span class="math inline"><em>B</em></span> form a basis for <span class="math inline"><em>c</em><em>o</em><em>l</em>(<em>A</em>)</span>.</li>
+</ul>
+<p>Consequently, the dimension of the row space and the columns space of <span class="math inline"><em>A</em></span> are the same. We call this the rank of <span class="math inline"><em>A</em></span>, denoted <span class="math inline"><em>r</em><em>a</em><em>n</em><em>k</em>(<em>A</em>)</span>.</p>
+<p><strong>Example:</strong> Let <span class="math inline"><em>A</em></span> be <br /><span class="math display">$$\begin{bmatrix}
+1 &amp; 2 &amp; 3 &amp; 4 \\
+3 &amp; -1 &amp; 2 &amp; 1 \\
+5 &amp; 0 &amp; 1 &amp; -1
+\end{bmatrix}$$</span><br /> Find a basis for the row space. Find a basis for the column space. Determine the rank of <span class="math inline"><em>A</em></span>.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb1-1" title="1"><span class="co"># We compute the rref of A and stare at it</span></a>
+<a class="sourceLine" id="cb1-2" title="2">A <span class="op">=</span> matrix([[<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>],[<span class="dv">3</span>,<span class="op">-</span><span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">1</span>],[<span class="dv">5</span>,<span class="dv">0</span>,<span class="dv">1</span>,<span class="op">-</span><span class="dv">1</span>]])</a>
+<a class="sourceLine" id="cb1-3" title="3">B <span class="op">=</span> A.rref()<span class="op">;</span> B</a>
+<a class="sourceLine" id="cb1-4" title="4"><span class="co"># The first 3 columns of A form a basis (so does the standard basis) for the column space</span></a>
+<a class="sourceLine" id="cb1-5" title="5"><span class="co"># The rows of B form a basis for the row space</span></a></code></pre></div>
+<pre><code>[     1      0      0 -13/28]
+[     0      1      0    1/4]
+[     0      0      1  37/28]</code></pre>
+<p><strong>Definition:</strong> The <strong>nullity</strong> of a matrix <span class="math inline"><em>A</em></span>, denoted <span class="math inline"><em>n</em><em>u</em><em>l</em><em>l</em>(<em>A</em>)</span>, is the dimension of the solution space to <span class="math inline"><em>A</em><em>x</em> = 0</span>.</p>
+<p><strong>Example:</strong> What is the nullity of the previous <span class="math inline"><em>A</em></span>? (It is 1).</p>
+<p><strong>Theorem:</strong> (Rank-Nullity Theorem) Let <span class="math inline"><em>A</em></span> be a <span class="math inline"><em>n</em> × <em>m</em></span> matrix. Then <span class="math inline"><em>r</em><em>a</em><em>n</em><em>k</em>(<em>A</em>) + <em>n</em><em>u</em><em>l</em><em>l</em><em>i</em><em>t</em><em>y</em>(<em>A</em>) = <em>m</em></span>.</p>
+<h2 id="linear-transform-perspective">Linear transform perspective</h2>
+<p>Let <span class="math inline"><em>T</em> : ℝ<sup><em>n</em></sup> → ℝ<sup><em>m</em></sup></span> be a linear transform. Let <span class="math inline"><em>A</em></span> be the matrix so that <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span>. Then <span class="math inline"><em>r</em><em>a</em><em>n</em><em>g</em><em>e</em>(<em>T</em>) = <em>c</em><em>o</em><em>l</em>(<em>A</em>)</span> so we know that hte rank of <span class="math inline"><em>A</em></span> is the dimension of the range. We know that the nullity is the dimension of the kernel. So dimension of range + dimension of kernel is the dimension of the domain.</p>

@@ -1,0 +1,72 @@
+<h1 id="october-11">October 11</h1>
+<h2 id="announcements">Announcements</h2>
+<ul>
+<li>Section 2.1, 2.2 due tomorrow</li>
+<li>Section 2.3, 3.1 due next Thursday</li>
+<li>Worksheet 2 due Friday</li>
+<li>Midterm next week</li>
+<li>Worksheet 3 will be posted on Friday, it’ll have some practice exam problems</li>
+</ul>
+<h2 id="linear-transformation">3.1 Linear transformation</h2>
+<h3 id="one-to-one-and-onto-linear-transformation">One-to-one and Onto linear transformation</h3>
+<p><strong>Definition:</strong> Let <span class="math inline"><em>T</em> : ℝ<sup><em>m</em></sup> → ℝ<sup><em>n</em></sup></span> be a linear transformation. Then</p>
+<ul>
+<li><span class="math inline"><em>T</em></span> is <em>one-to-one</em> if for every vector <span class="math inline"><em>w</em> ∈ ℝ<sup><em>n</em></sup></span>, there exists at most one vector <span class="math inline"><em>v</em> ∈ ℝ<sup><em>m</em></sup></span> such that <span class="math inline"><em>T</em>(<em>v</em>) = <em>w</em></span>.</li>
+<li><span class="math inline"><em>T</em></span> is <em>onto</em> if for every vector <span class="math inline"><em>w</em> ∈ ℝ<sup><em>n</em></sup></span>, there is exists at least one vector <span class="math inline"><em>v</em> ∈ ℝ<sup><em>n</em></sup></span> such that <span class="math inline"><em>T</em>(<em>v</em>) = <em>w</em></span>.</li>
+</ul>
+<p>A linear transformation <span class="math inline"><em>T</em></span> is one-to-one if <span class="math inline"><em>T</em>(<em>u</em>) = <em>T</em>(<em>v</em>)</span> implies <span class="math inline"><em>u</em> = <em>v</em></span>. In other words, if <span class="math inline"><em>u</em> ≠ <em>v</em></span>, then <span class="math inline"><em>T</em>(<em>u</em>) ≠ <em>T</em>(<em>v</em>)</span>. (Two-to-two!)</p>
+<p>Talk about the general idea of one-to-one and onto.</p>
+<p><strong>Theorem:</strong> Let <span class="math inline"><em>T</em></span> be a linear transformation <span class="math inline"><em>T</em></span> is one-to-one if <span class="math inline"><em>T</em>(<em>u</em>) = 0</span> implies <span class="math inline"><em>u</em> = 0</span>.</p>
+<p><strong>Example:</strong> Let <span class="math inline"><em>T</em></span> be the linear transformation defined by <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span>, where <br /><span class="math display">$$
+\begin{bmatrix}
+4 &amp; -1 \\
+-2 &amp; 2 \\
+0 &amp; 3
+\end{bmatrix}
+$$</span><br /> Is <span class="math inline"><em>T</em></span> one-to-one? Onto?</p>
+<p>Let <span class="math inline"><em>T</em></span> be the linear transformation defined by <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span>, where <br /><span class="math display">$$
+\begin{bmatrix}
+2 &amp; 1 &amp; 1 \\
+1 &amp; 2 &amp; 0 \\
+1 &amp; 3 &amp; 0
+\end{bmatrix}
+$$</span><br /> Is <span class="math inline"><em>T</em></span> one-to-one? Onto?</p>
+<p><strong>Theorem:</strong> Let <span class="math inline"><em>T</em> : ℝ<sup><em>m</em></sup> → ℝ<sup><em>n</em></sup></span> be a linear transformation. Let <span class="math inline"><em>A</em></span> be the matrix so that <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span>. Then</p>
+<ul>
+<li><span class="math inline"><em>T</em></span> is one-to-one if the columns of <span class="math inline"><em>A</em></span> are linearly independent.</li>
+<li><span class="math inline"><em>T</em></span> is onto if the columns of <span class="math inline"><em>A</em></span> span <span class="math inline">ℝ<sup><em>n</em></sup></span></li>
+</ul>
+<p>In particular, the dimension of <span class="math inline"><em>A</em></span> can sometimes implies that <span class="math inline"><em>T</em></span> cannot be one-to-one and onto.</p>
+<p><strong>Theorem:</strong> Let <span class="math inline"><em>S</em> = {<em>a</em><sub>1</sub>, …, <em>a</em><sub><em>n</em></sub>}</span> with <span class="math inline"><em>a</em><sub><em>i</em></sub> ∈ ℝ<sup><em>n</em></sup></span>, <span class="math inline"><em>A</em> = [<em>a</em><sub><em>i</em></sub>]</span>, and <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span>. (So <span class="math inline"><em>A</em></span> is square). Then the following are equivalent:</p>
+<ul>
+<li><span class="math inline"><em>S</em></span> spans <span class="math inline">ℝ<sup><em>n</em></sup></span></li>
+<li><span class="math inline"><em>S</em></span> is linearly independent</li>
+<li><span class="math inline"><em>A</em><em>x</em> = <em>b</em></span> has a unique solution for all <span class="math inline"><em>b</em> ∈ ℝ<sup><em>n</em></sup></span></li>
+<li><span class="math inline"><em>T</em>(<em>x</em><em>s</em>) = <em>b</em></span> has a unique solution for all <span class="math inline"><em>b</em> ∈ ℝ<sup><em>n</em></sup></span></li>
+<li><span class="math inline"><em>T</em></span> is onto</li>
+<li><span class="math inline"><em>T</em></span> is one-to-one.</li>
+</ul>
+<h3 id="geometry-of-linear-transformations-from-r2-to-r2">Geometry of linear transformations from R^2 to R^2</h3>
+<p>Lines go to lines (or points)! Why? <span class="math inline"><em>T</em>((1 − <em>s</em>)<em>u</em> + <em>s</em><em>v</em>) = (1 − <em>s</em>)<em>T</em>(<em>u</em>) + <em>s</em><em>T</em>(<em>v</em>)</span>.</p>
+<p>The columns of the matrix tells you where the standard basis goes.</p>
+<p>Let’s see what happens to the square <span class="math inline">{(<em>x</em>, <em>y</em>) : 0 ≤ <em>x</em>, <em>y</em> ≤ 1}</span> under the following transforms <br /><span class="math display">$$
+\begin{bmatrix}
+3 &amp; 0 \\
+0 &amp; 2
+\end{bmatrix}
+$$</span><br /> <br /><span class="math display">$$
+\begin{bmatrix}
+1 &amp; 2 \\
+0 &amp; 2
+\end{bmatrix}
+$$</span><br /> <br /><span class="math display">$$
+\begin{bmatrix}
+1 &amp; 0 \\
+0 &amp; 0
+\end{bmatrix}
+$$</span><br /> <br /><span class="math display">$$
+\begin{bmatrix}
+\cos(\theta) &amp; -\sin(\theta) \\
+\sin(\theta) &amp; \cos(\theta)
+\end{bmatrix}
+$$</span><br /></p>

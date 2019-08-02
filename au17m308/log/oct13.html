@@ -1,0 +1,74 @@
+<h1 id="october-11">October 11</h1>
+<h2 id="announcements">Announcements</h2>
+<ul>
+<li>Section 2.3, 3.1 due next Thursday</li>
+<li>Write down name if you did worksheet 2</li>
+<li>Midterm next week</li>
+<li>Worksheet 3 will be posted tonight, it’ll have some practice exam problems</li>
+</ul>
+<h2 id="linear-transformation">3.1 Linear transformation</h2>
+<p><strong>Theorem:</strong> Let <span class="math inline"><em>S</em> = {<em>a</em><sub>1</sub>, …, <em>a</em><sub><em>n</em></sub>}</span> with <span class="math inline"><em>a</em><sub><em>i</em></sub> ∈ ℝ<sup><em>n</em></sup></span>, <span class="math inline"><em>A</em> = [<em>a</em><sub><em>i</em></sub>]</span>, and <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span>. (So <span class="math inline"><em>A</em></span> is square). Then the following are equivalent:</p>
+<ul>
+<li><span class="math inline"><em>S</em></span> spans <span class="math inline">ℝ<sup><em>n</em></sup></span></li>
+<li><span class="math inline"><em>S</em></span> is linearly independent</li>
+<li><span class="math inline"><em>A</em><em>x</em> = <em>b</em></span> has a unique solution for all <span class="math inline"><em>b</em> ∈ ℝ<sup><em>n</em></sup></span></li>
+<li><span class="math inline"><em>T</em>(<em>x</em><em>s</em>) = <em>b</em></span> has a unique solution for all <span class="math inline"><em>b</em> ∈ ℝ<sup><em>n</em></sup></span></li>
+<li><span class="math inline"><em>T</em></span> is onto</li>
+<li><span class="math inline"><em>T</em></span> is one-to-one.</li>
+</ul>
+<h3 id="geometry-of-linear-transformations-from-r2-to-r2">Geometry of linear transformations from R^2 to R^2</h3>
+<p>Lines go to lines (or points)! Why? <span class="math inline"><em>T</em>((1 − <em>s</em>)<em>u</em> + <em>s</em><em>v</em>) = (1 − <em>s</em>)<em>T</em>(<em>u</em>) + <em>s</em><em>T</em>(<em>v</em>)</span>.</p>
+<p>The columns of the matrix tells you where the standard basis goes. Once you know this, you should know everything.</p>
+<p>Let’s see what happens to the square <span class="math inline">{(<em>x</em>, <em>y</em>) : 0 ≤ <em>x</em>, <em>y</em> ≤ 1}</span> under the following transforms <br /><span class="math display">$$
+\begin{bmatrix}
+3 &amp; 0 \\
+0 &amp; 2
+\end{bmatrix}
+$$</span><br /> <br /><span class="math display">$$
+\begin{bmatrix}
+1 &amp; 2 \\
+0 &amp; 2
+\end{bmatrix}
+$$</span><br /> <br /><span class="math display">$$
+\begin{bmatrix}
+1 &amp; 0 \\
+0 &amp; 0
+\end{bmatrix}
+$$</span><br /> <br /><span class="math display">$$
+\begin{bmatrix}
+\cos(\theta) &amp; -\sin(\theta) \\
+\sin(\theta) &amp; \cos(\theta)
+\end{bmatrix}
+$$</span><br /></p>
+<h2 id="piecing-things-together">Piecing things together</h2>
+<p><strong>Theorem:</strong> Let <span class="math inline"><em>S</em> = {<em>v</em><sub>1</sub>, …, <em>v</em><sub><em>n</em></sub>}</span>. Let <span class="math inline"><em>A</em></span> be the matrix with the elements of <span class="math inline"><em>S</em></span> as columns. Let <span class="math inline"><em>B</em></span> be an echelon matrix equivalent to <span class="math inline"><em>A</em></span>. Let <span class="math inline"><em>T</em></span> be a linear transform with <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span>. Then the following are equivalent</p>
+<ul>
+<li>The set <span class="math inline"><em>S</em></span> is linearly independent.</li>
+<li>The linear equation <span class="math inline"><em>x</em><sub>1</sub><em>v</em><sub>1</sub> + … + <em>x</em><sub><em>n</em></sub><em>v</em><sub><em>n</em></sub> = 0</span> has only the trivial solution.</li>
+<li>Every columns of <span class="math inline"><em>B</em></span> has a pivot. (computationally useful)</li>
+<li>For any <span class="math inline"><em>b</em> ∈ ℝ<sup><em>n</em></sup></span>, the equation <span class="math inline"><em>x</em><sub>1</sub><em>v</em><sub>1</sub> + … + <em>x</em><sub><em>n</em></sub><em>v</em><sub><em>n</em></sub> = <em>b</em></span> has a unique solution.</li>
+<li>The homogenous equation <span class="math inline"><em>A</em><em>x</em> = 0</span> has only the trivial solution.</li>
+<li>For any <span class="math inline"><em>b</em> ∈ ℝ<sup><em>n</em></sup></span>, the equation <span class="math inline"><em>A</em><em>x</em> = <em>b</em></span> has at most one solution.</li>
+<li>For any <span class="math inline"><em>b</em> ∈ ℝ<sup><em>n</em></sup></span>, <span class="math inline"><em>b</em></span> can be expressed as a linear combination of elements in <span class="math inline"><em>S</em></span> in at most one way.</li>
+<li>The zero vector can be expressed as a linear combination of elements in <span class="math inline"><em>S</em></span> in only one way.</li>
+<li><span class="math inline"><em>T</em></span> is a one-to-one linear transformation.</li>
+<li>The only solution to <span class="math inline"><em>T</em>(<em>x</em>) = 0</span> is <span class="math inline"><em>x</em> = 0</span>. If <span class="math inline"><em>T</em>(<em>x</em>) = 0</span>, then <span class="math inline"><em>x</em> = 0</span>.</li>
+<li>There is at most one solution to <span class="math inline"><em>T</em>(<em>x</em>) = <em>b</em></span>.</li>
+</ul>
+<p><strong>Theorem:</strong> Let <span class="math inline"><em>S</em> = {<em>v</em><sub>1</sub>, …, <em>v</em><sub><em>n</em></sub>}</span> be a set of vectors in <span class="math inline">ℝ<sup><em>m</em></sup></span>. Let <span class="math inline"><em>A</em></span> be the matrix with the elements of <span class="math inline"><em>S</em></span> as columns. Let <span class="math inline"><em>B</em></span> be an echelon matrix equivalent to <span class="math inline"><em>A</em></span>. Let <span class="math inline"><em>T</em></span> be a linear transform with <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span>. Then the following are equivalent</p>
+<ul>
+<li>The set <span class="math inline"><em>S</em></span> spans <span class="math inline">ℝ<sup><em>m</em></sup></span>.</li>
+<li>The linear equation <span class="math inline"><em>x</em><sub>1</sub><em>v</em><sub>1</sub> + … + <em>x</em><sub><em>n</em></sub><em>v</em><sub><em>n</em></sub> = <em>b</em></span> always has a solution.</li>
+<li>Every row of <span class="math inline"><em>B</em></span> has a pivot. (computationally useful)</li>
+<li>For any <span class="math inline"><em>b</em> ∈ ℝ<sup><em>n</em></sup></span>, the equation <span class="math inline"><em>A</em><em>x</em> = <em>b</em></span> has at least one solution.</li>
+<li>For any <span class="math inline"><em>b</em> ∈ ℝ<sup><em>n</em></sup></span>, <span class="math inline"><em>b</em></span> can be expressed as a linear combination of elements in <span class="math inline"><em>S</em></span> in at least one way.</li>
+<li><span class="math inline"><em>T</em></span> is a onto linear transformation.</li>
+<li>There is always a solution to <span class="math inline"><em>T</em>(<em>x</em>) = <em>b</em></span>.</li>
+</ul>
+<p><strong>Examples:</strong></p>
+<p>Kristin DeVleming exam: Let <span class="math inline"><em>u</em><sub>1</sub> = (4, 4, 2)</span> and <span class="math inline"><em>u</em><sub>2</sub> = (8, 5,  − 3)</span>. Let <span class="math inline"><em>v</em> = (26, 17,  − 8)</span>. Write <span class="math inline"><em>v</em></span> as a linear combination of <span class="math inline"><em>u</em><sub>1</sub>, <em>u</em><sub>2</sub></span>. Write a vector <span class="math inline"><em>w</em></span> that is not in the span of <span class="math inline"><em>u</em><sub>1</sub>, <em>u</em><sub>2</sub></span>.</p>
+<p>Josh Swanson exam: Are the following sets spanning?</p>
+<ul>
+<li><span class="math inline">{(1, 2, 3), ( − 1,  − 1, 2), ( − 1, 0, 7)}</span></li>
+<li><span class="math inline">{(1,  − 1, 1), (0, 1, 2), ( − 2, 0, 2), (1, 3, 1)}</span>.</li>
+</ul>

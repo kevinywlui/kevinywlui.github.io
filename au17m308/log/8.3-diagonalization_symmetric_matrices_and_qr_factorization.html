@@ -1,0 +1,24 @@
+<h1 id="diagonalization-symmetric-matrices-and-qr-factorization">Diagonalization Symmetric Matrices and QR factorization</h1>
+<p><strong>Theorem:</strong> If <span class="math inline"><em>A</em></span> is a symmetric matrix, then eigenvectors associated to distinct eigenvalues are orthogonal.</p>
+<p><strong>Definition:</strong> A square matrix <span class="math inline"><em>P</em></span> with orthonormal columns is called an orthogonal matrix.</p>
+<p><strong>Theorem:</strong> If <span class="math inline"><em>P</em></span> is a square orthonormal matrix then <span class="math inline"><em>P</em></span> is invertible and the inverse is the transpose - <span class="math inline"><em>P</em><sup> − 1</sup> = <em>P</em><sup><em>t</em></sup></span>.</p>
+<p>Proof: Let <span class="math inline"><em>P</em> = [<em>p</em><sub>1</sub> … <em>p</em><sub><em>n</em></sub>]</span>. Then the <span class="math inline"><em>i</em><em>j</em></span>th entry of <span class="math inline"><em>P</em><sup><em>t</em></sup><em>P</em></span> is <span class="math inline"><em>p</em><sub><em>i</em></sub> ⋅ <em>p</em><sub><em>j</em></sub></span> which is 1 if <span class="math inline"><em>i</em> = <em>j</em></span> and is <span class="math inline">0</span> if <span class="math inline"><em>i</em> ≠ <em>j</em></span>.</p>
+<p><strong>Questions:</strong></p>
+<ul>
+<li>What is the determinant of an orthogonal matrix? What does it tell you geometrically?</li>
+<li>Is every matrix with determinant <span class="math inline"> ± 1</span> orthogonal?</li>
+<li>How would you invert an orthogonal matrix?</li>
+</ul>
+<h2 id="orthogonally-diagonalizable-matrices">Orthogonally Diagonalizable Matrices</h2>
+<p><strong>Definition:</strong> A square matrix <span class="math inline"><em>A</em></span> is orthogonally diagonalizable if there exists an orthogonal matrix <span class="math inline"><em>P</em></span> and a diagonal matrix <span class="math inline"><em>D</em></span> such that <span class="math inline"><em>A</em> = <em>P</em><em>D</em><em>P</em><sup> − 1</sup> = <em>P</em><em>D</em><em>P</em><sup><em>t</em></sup></span>.</p>
+<p>(give an example in class.)</p>
+<p><strong>Theorem:</strong> (Spectral Theorem) A matrix <span class="math inline"><em>A</em></span> is orthogonally diagonalizable if and only if <span class="math inline"><em>A</em></span> is symmetric.</p>
+<p>It is easy to see that if <span class="math inline"><em>A</em></span> is orthogonally diagonalizable then <span class="math inline"><em>A</em></span> is symmetric. The converse is harder and won’t be proved in this class.</p>
+<p>(Work out example 3 on page 354)</p>
+<h2 id="qr-factorization">QR Factorization</h2>
+<p><strong>Theorem:</strong> (QR factorization) Let <span class="math inline"><em>A</em> = [<em>a</em><sub>1</sub> … <em>a</em><sub><em>m</em></sub></span> be an <span class="math inline"><em>n</em> × <em>m</em></span> matrix with linearly independent columns. Then <span class="math inline"><em>A</em></span> can be factored as <span class="math inline"><em>A</em> = <em>Q</em><em>R</em></span> where <span class="math inline"><em>Q</em></span> is a <span class="math inline"><em>n</em> × <em>m</em></span> matrix with orthonormal columns and <span class="math inline"><em>R</em></span> is an <span class="math inline"><em>m</em> × <em>m</em></span> matrix with nonnegative diagonal.</p>
+<p>See the book for a full proof.</p>
+<p>The matrix <span class="math inline"><em>Q</em> = [<em>q</em><sub>1</sub> … <em>q</em><sub><em>m</em></sub>]</span> is obtained by the Gram-Schmidt process. We can then obtain <span class="math inline"><em>R</em></span> by computing <span class="math inline"><em>Q</em><sup><em>t</em></sup><em>A</em> = <em>R</em></span>. This <span class="math inline"><em>R</em></span> will be upper triangular but the entries on the diagonal could be negative. But we can fix it.</p>
+<p>This is useful for solving linear systems. Pivot manipulations can cause significant roundoff errors.</p>
+<p>If <span class="math inline"><em>A</em></span> is invertible and <span class="math inline"><em>A</em><em>x</em> = <em>b</em></span> and <span class="math inline"><em>A</em> = <em>Q</em><em>R</em></span>, then <span class="math inline"><em>Q</em><em>R</em><em>x</em> = <em>b</em></span> so <span class="math inline"><em>R</em><em>x</em> = <em>Q</em><sup><em>t</em></sup><em>b</em></span>. This is now a triangular system which can be solved with backsubstituion.</p>
+<p>(Work out example 4 on page 356)</p>

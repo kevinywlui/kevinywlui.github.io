@@ -1,0 +1,45 @@
+<h1 id="determinants">5.1/5.2 - Determinants</h1>
+<p>Let <span class="math inline"><em>T</em> : ℝ<sup><em>n</em></sup> → ℝ<sup><em>n</em></sup></span> be a linear transform and <span class="math inline"><em>A</em></span> be the square matrix defined so that <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span>. Then the absolute value of the determinant of <span class="math inline"><em>A</em></span>, denoted det(<span class="math inline"><em>A</em></span>), measures the change in volume under <span class="math inline"><em>T</em></span>. This means that if <span class="math inline"><em>S</em></span> is a shape of volume V then <span class="math inline"><em>T</em>(<em>S</em>) = {<em>T</em>(<em>s</em>) : <em>s</em> ∈ ℝ<sup><em>n</em></sup>}</span> has volume <span class="math inline">|det (<em>A</em>)|</span>V.</p>
+<p><strong>Definition:</strong> For any <span class="math inline"><em>n</em> ∈ ℕ</span>, The <strong>determinant</strong> is the unique function from the set of square matrices of size <span class="math inline"><em>n</em></span> so the real numbers with the following 3 properties:</p>
+<ul>
+<li><span class="math inline">det (<em>I</em><sub><em>n</em></sub>) = 1</span>,</li>
+<li>When viewing a square matrices as a list of <span class="math inline"><em>n</em></span> column vectors, the determinant is <span class="math inline"><em>n</em></span>-linear. This means <span class="math inline">det ([<em>a</em><sub>1</sub>, …, <em>c</em><em>a</em><sub><em>i</em></sub> + <em>d</em><em>b</em><sub><em>i</em></sub>, …, <em>a</em><sub><em>n</em></sub>]) = <em>c</em>det ([<em>a</em><sub>1</sub>, …, <em>a</em><sub><em>i</em></sub>, …, <em>a</em><sub><em>n</em></sub>]) + <em>d</em>det ([<em>a</em><sub>1</sub>, …, <em>b</em><sub><em>i</em></sub>, …, <em>a</em><sub><em>n</em></sub>])</span>.</li>
+<li>If this there is a column of zero, then the determinant is zero.</li>
+</ul>
+<p>The determinant of a linear transform <span class="math inline"><em>T</em> : ℝ<sup><em>n</em></sup> → ℝ<sup><em>n</em></sup></span> is the determinant of its associated matrix.</p>
+<p><strong>Properties:</strong></p>
+<ul>
+<li><span class="math inline">det (<em>A</em><em>B</em>) = det (<em>A</em>)det (<em>B</em>)</span>,</li>
+<li><span class="math inline">det (<em>A</em><sup><em>t</em></sup>) = det (<em>A</em>)</span>,</li>
+<li>If <span class="math inline"><em>A</em></span> is upper (or lower) triangular, then <span class="math inline">det (<em>A</em>)</span> is the product of the diagonal,</li>
+<li><span class="math inline">det (<em>c</em><em>A</em>) = <em>c</em><sup><em>n</em></sup>det (<em>A</em>)</span>,</li>
+<li>If <span class="math inline"><em>A</em></span> has positive nullity, then <span class="math inline">det (<em>A</em>) = 0</span>.</li>
+</ul>
+<p><strong>Computation:</strong> There is a thing called cofactor expansion. It is terrible but we will learn it. In practice, another method is used like <span class="math inline"><em>L</em><em>U</em></span>-decomposition. There <span class="math inline"><em>L</em><em>U</em></span> decompositon of a matrix <span class="math inline"><em>A</em></span> is <span class="math inline"><em>A</em> = <em>L</em><em>U</em></span> where <span class="math inline"><em>L</em></span> is lower trianguluar and <span class="math inline"><em>U</em></span> is upper triangular. Then <span class="math inline">det (<em>A</em>) = det (<em>L</em>)det (<em>U</em>)</span>, where <span class="math inline">det (<em>L</em>)</span> and <span class="math inline">det (<em>U</em>)</span> is the product of the diagonal. Give <span class="math inline"><em>n</em> = 2</span> and <span class="math inline"><em>n</em> = 3</span> shortcuts and the general cofactor formula. Note that you can expand along any row or column.</p>
+<p><strong>Notation:</strong> Often you denote the determinant of a matrix by replacing the square brackets by straight lines.</p>
+<p><strong>Examples:</strong> Compute the determinant in the following cases:</p>
+<ul>
+<li><span class="math inline"><em>T</em>(<em>x</em>, <em>y</em>) = (<em>x</em> + <em>y</em>, <em>y</em>)</span></li>
+<li><span class="math inline"><em>T</em>(<em>x</em>, <em>y</em>) = (3<em>x</em> + <em>y</em>,  − <em>y</em>)</span>. Also what is the determinant of <span class="math inline"><em>T</em><sup> − 1</sup></span> here? (demonstrate that <span class="math inline">det (<em>A</em><sup> − 1</sup>) = det (<em>A</em>)<sup> − 1</sup></span> here)</li>
+<li>Here is a <span class="math inline">3 × 3</span> example</li>
+<li>Here is a <span class="math inline">4 × 4</span> example that I won’t actually work out fully</li>
+</ul>
+<p><strong>Theorem:</strong> Let <span class="math inline"><em>S</em> = {<em>a</em><sub>1</sub>, …, <em>a</em><sub><em>n</em></sub>}</span> be a set of vectors in <span class="math inline">ℝ<sup><em>n</em></sup></span>, let <span class="math inline"><em>A</em> = [<em>a</em><sub>1</sub> … <em>a</em><sub><em>n</em></sub>]</span> and <span class="math inline"><em>T</em> : ℝ<sup><em>n</em></sup> → ℝ<sup><em>n</em></sup></span> be given by <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span>. Then the following are equivalent:</p>
+<ul>
+<li><span class="math inline"><em>S</em></span> spans <span class="math inline">ℝ<sup><em>n</em></sup></span>,</li>
+<li><span class="math inline"><em>S</em></span> is linearly independent,</li>
+<li><span class="math inline"><em>S</em></span> is a basis for <span class="math inline">ℝ<sup><em>n</em></sup></span>,</li>
+<li><span class="math inline"><em>A</em><em>x</em> = <em>b</em></span> has a unique solution for every <span class="math inline"><em>b</em> ∈ ℝ<sup><em>n</em></sup></span>,</li>
+<li><span class="math inline"><em>T</em></span> is onto,</li>
+<li><span class="math inline"><em>T</em></span> is one-to-one,</li>
+<li><span class="math inline">ker <em>T</em> = {0}</span>,</li>
+<li><span class="math inline"><em>r</em><em>a</em><em>n</em><em>g</em><em>e</em>(<em>T</em>) = ℝ<sup><em>n</em></sup></span>,</li>
+<li><span class="math inline"><em>c</em><em>o</em><em>l</em>(<em>A</em>) = ℝ<sup><em>n</em></sup></span>,</li>
+<li><span class="math inline"><em>r</em><em>o</em><em>w</em>(<em>A</em>) = ℝ<sup><em>n</em></sup></span>,</li>
+<li><span class="math inline"><em>r</em><em>a</em><em>n</em><em>k</em>(<em>A</em>) = <em>n</em></span>,</li>
+<li><span class="math inline"><em>n</em><em>u</em><em>l</em><em>l</em><em>i</em><em>t</em><em>y</em>(<em>A</em>) = 0</span>,</li>
+<li>Any echelon form of <span class="math inline"><em>A</em></span> has no zero entries on the diagonal,</li>
+<li>The reduced echelon form of <span class="math inline"><em>A</em></span> is the identity matrix,</li>
+<li><span class="math inline">det (<em>A</em>) ≠ 0</span>,</li>
+</ul>
+<p><strong>tldr</strong>: Determinant tells you about change of volume. It is a test of invertibility.</p>

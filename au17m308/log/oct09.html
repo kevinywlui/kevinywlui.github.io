@@ -1,0 +1,64 @@
+<h1 id="october-9">October 9</h1>
+<h2 id="announcements">Announcements</h2>
+<ul>
+<li>Section 2.1, 2.2 due this Thursday</li>
+<li>Section 2.3, 3.1 due next Thursday</li>
+<li>Midterm next Wednesday in class
+<ul>
+<li>1.1 - 3.1 (maybe 3.2)</li>
+</ul></li>
+<li>Worksheet 1 solutions has been posted</li>
+<li>Worksheet 2 has been posted, due this Friday</li>
+<li>Wednesday office hours to be held in classroom?</li>
+</ul>
+<h2 id="homogenous-systems">Homogenous Systems</h2>
+<p>Let <span class="math inline"><em>A</em></span> be a matrix. Then <span class="math inline"><em>A</em>(<em>x</em> + <em>y</em>) = <em>A</em><em>x</em> + <em>A</em><em>x</em></span> and <span class="math inline"><em>A</em>(<em>x</em> − <em>y</em>) = <em>A</em><em>x</em> − <em>A</em><em>y</em></span>.</p>
+<p><strong>Example:</strong> Find a general solution for the linear system $  $ Using row reduction, we see that a general solution is of the form <span class="math inline"><em>x</em> = (1, 0,  − 5, 0) + <em>s</em><sub>1</sub>(3, 1, 0, 0) + <em>s</em><sub>2</sub>( − 2, 0, 4, 1)</span>.</p>
+<p>The solution to the homogenous system is <span class="math inline"><em>x</em> = <em>s</em><sub>1</sub>(3, 1, 0, 0) + <em>s</em><sub>2</sub>( − 2, 0, 4, 1)</span>.</p>
+<p>Let <span class="math inline"><em>x</em><sub><em>p</em></sub></span> be a particular solution <span class="math inline"><em>A</em><em>x</em> = <em>b</em></span>. Then solutions have the form <span class="math inline"><em>x</em><sub><em>g</em></sub> = <em>x</em><sub><em>p</em></sub> + <em>x</em><sub><em>h</em></sub></span>, where <span class="math inline"><em>x</em><sub><em>p</em></sub></span> is a particular solution and <span class="math inline"><em>x</em><sub><em>h</em></sub></span> is the general solution to the homogenous equations.</p>
+<h2 id="linear-indepedence-and-span">Linear Indepedence and Span</h2>
+<p><strong>Theorem:</strong> Let <span class="math inline"><em>A</em> = [<em>a</em><sub><em>i</em></sub>]</span> and <span class="math inline"><em>b</em></span> be a vector in <span class="math inline">ℝ<sup><em>n</em></sup></span>. Then the following are equivalent (if one is true then they are all true, if one is false then they are all false).</p>
+<ul>
+<li>The set <span class="math inline">{<em>a</em><sub>1</sub>, …, <em>a</em><sub><em>m</em></sub>}</span> are linearly independent.</li>
+<li>The vector equation <span class="math inline"><em>x</em><sub>1</sub><em>a</em><sub>1</sub> + <em>x</em><sub>2</sub><em>a</em><sub>2</sub> + … + <em>x</em><sub><em>m</em></sub><em>a</em><sub><em>m</em></sub> = <em>b</em></span> has at most one solution.</li>
+<li>The linear system <span class="math inline">[<em>a</em><sub>1</sub> <em>a</em><sub>2</sub> … <em>a</em><sub><em>m</em></sub>|<em>b</em>]</span> has at most one solution.</li>
+<li>The equation <span class="math inline"><em>A</em><em>x</em> = <em>b</em></span> has at most 1 solution.</li>
+</ul>
+<p><strong>Example:</strong> Consider the vectors <span class="math inline"><em>a</em><sub>1</sub> = (1, 7,  − 2)</span>, <span class="math inline"><em>a</em><sub>2</sub> = (3, 0, 1)</span>, and <span class="math inline"><em>a</em><sub>3</sub> = (5, 2, 6)</span>. Set <span class="math inline"><em>A</em> = [<em>a</em><sub><em>i</em></sub>]</span>. Show that the columns of <span class="math inline"><em>A</em></span> are linearly independent and that <span class="math inline"><em>A</em><em>x</em> = <em>b</em></span> has a unique solution for every <span class="math inline"><em>b</em></span> in <span class="math inline">ℝ<sup>3</sup></span>.</p>
+<p><strong>Example:</strong> Let <span class="math inline"><em>u</em><sub>1</sub> = (1,  − 1, 2), <em>u</em><sub>2</sub> = (2,  − 1, 2), <em>u</em><sub>3</sub> = ( − 2, 5,  − 10), <em>u</em><sub>4</sub> = (3,  − 4, 8)</span>. The associated matrix has reduced echelon form: <br /><span class="math display">$$
+\begin{bmatrix}
+1 &amp; 2 &amp; -2 &amp; 3 \\
+0 &amp; 1 &amp; 3 &amp; -1 \\
+0 &amp; 0 &amp; 0 &amp; 0
+\end{bmatrix}
+$$</span><br /> Is <span class="math inline">{<em>u</em><sub>1</sub>, …, <em>u</em><sub>4</sub>}</span> linearly independent? Can we write <span class="math inline"><em>u</em><sub>1</sub></span> as a linear combination of <span class="math inline"><em>u</em><sub>2</sub>, …, <em>u</em><sub>4</sub></span>?</p>
+<p>If a set of vectors is not linearly indepedent, can every vector be written as a linear combination of the other vectors? In other words, is every vector in the span of the other vectors?</p>
+<h2 id="section-3.1-linear-transformations">Section 3.1 Linear Transformations</h2>
+<p>We can write linear equations as <span class="math inline"><em>A</em><em>x</em> = <em>b</em></span>. We can think of it as <span class="math inline"><em>A</em></span> sending <span class="math inline"><em>x</em></span> to <span class="math inline"><em>b</em></span>.</p>
+<p><strong>Definition:</strong> A function <span class="math inline"><em>T</em> : ℝ<sup><em>m</em></sup> → ℝ<sup><em>n</em></sup></span> is a linear transformation if for all vectors <span class="math inline"><em>u</em>, <em>v</em> ∈ ℝ<sup><em>m</em></sup></span> and all scalars <span class="math inline"><em>r</em></span>, we have</p>
+<ul>
+<li>T(u+v) = T(u) + T(v)</li>
+<li>T(ru) = rT(u).</li>
+</ul>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>What are some examples of functions that aren’t linear transforms? quadratic, ax+b</li>
+<li>Consider the function given by <span class="math inline"><em>T</em>(<em>x</em><sub>1</sub>, <em>x</em><sub>2</sub>) = (3<em>x</em><sub>1</sub> − <em>x</em><sub>2</sub>, 2<em>x</em><sub>1</sub> + 5<em>x</em><sub>2</sub>)</span>. What is <span class="math inline"><em>T</em>(1, 2)</span>? Show that this is a linear transformation. Is it associated to a matrix?</li>
+<li>Projections are linear transforms.</li>
+<li>Let <span class="math inline"><em>A</em></span> be some matrix. Then <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span> is a linear transform. Make up some example in class.</li>
+</ul>
+<p>A matrix, <span class="math inline"><em>A</em></span>, is said to be an <span class="math inline"><em>n</em> × <em>m</em></span> matrix if it has <span class="math inline"><em>n</em></span> rows and <span class="math inline"><em>m</em></span> columns. If <span class="math inline"><em>m</em> = <em>n</em></span>, then <span class="math inline"><em>A</em></span> is a sqaure matrix.</p>
+<p><strong>Theorem:</strong> Let <span class="math inline"><em>A</em></span> be an <span class="math inline"><em>n</em> × <em>m</em></span> matrix, and define <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span>. Then <span class="math inline"><em>T</em> : ℝ<sup><em>m</em></sup> → ℝ<sup><em>n</em></sup></span> is a linear transform. Moreover, all linear transform are of this form.</p>
+<p><strong>Example:</strong> Consider the linear transform with matrix <br /><span class="math display">$$
+A=
+\begin{bmatrix}
+1 &amp; -2 &amp; 4 \\
+3 &amp; 0 &amp; 5
+\end{bmatrix}.
+$$</span><br /> Is <span class="math inline">(3, 4)</span> in the range of <span class="math inline"><em>A</em></span>?</p>
+<p><strong>Theorem:</strong> Let <span class="math inline"><em>A</em> = [<em>a</em><sub>1</sub> <em>a</em><sub>2</sub> … <em>a</em><sub><em>m</em></sub></span> be a <span class="math inline"><em>n</em> × <em>m</em></span> matrix, and let <span class="math inline"><em>T</em> : ℝ<sup><em>m</em></sup> → ℝ<sup><em>n</em></sup></span> with <span class="math inline"><em>T</em>(<em>x</em>) = <em>A</em><em>x</em></span> be a linear transformation. Then</p>
+<ul>
+<li>A vector <span class="math inline"><em>w</em></span> is in the range of <span class="math inline"><em>T</em></span> if and only if <span class="math inline"><em>A</em><em>x</em> = <em>w</em></span> is a consistent linear system.</li>
+<li>The range of <span class="math inline"><em>T</em></span> is the span of the columns (this is also called the column space).</li>
+</ul>
+<p>If time, talk about 1-1 and onto</p>
